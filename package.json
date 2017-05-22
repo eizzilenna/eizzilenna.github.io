@@ -1,0 +1,21 @@
+{
+  "name": "hilmy",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build:css && budo index.js --live --dir static",
+    "build": "npm run build:css",
+    "build:css": "cp ./node_modules/tachyons/css/tachyons.min.css ./static/tachyons.min.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tachyons": "^4.7.4"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3"
+  },
+  "license": "ISC"
+}
