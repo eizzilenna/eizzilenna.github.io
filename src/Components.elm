@@ -59,7 +59,6 @@ nav navigate =
         , navLink navigate "Drawings" "/drawings"
         , navLink navigate "Collages" "/collages"
         , navLink navigate "Interiors" "/interiors"
-        , navLinkLast navigate "404" "/unknown"
         ]
     ]
 
