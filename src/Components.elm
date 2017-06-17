@@ -65,7 +65,7 @@ nav navigate =
 brand : (String -> msg) -> Html msg
 brand navigate =
   H.a
-    [ A.class "db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l"
+    [ A.class "db dtc-l v-mid mid-gray dim w-100 w-25-l tc tl-l mb2 mb0-l"
     , A.href "/"
     , A.title "Home"
     , onClick (navigate "/")
@@ -79,7 +79,7 @@ brand navigate =
 navLink : (String -> msg) -> String -> String -> Html msg
 navLink navigate title href =
   H.a
-    [ A.class "link dim dark-gray f6 f5-l dib mr2 mr3-l"
+    [ A.class "dim dark-gray no-underline f6 f5-l dib mr2 mr3-l"
     , A.href href
     , A.title title
     , onClick (navigate href)
@@ -89,7 +89,7 @@ navLink navigate title href =
 navLinkLast : (String -> msg) -> String -> String -> Html msg
 navLinkLast navigate title href =
   H.a
-    [ A.class "link dim dark-gray f6 f5-l dib"
+    [ A.class "dim dark-gray no-underline f6 f5-l dib "
     , A.href href
     , A.title title
     , onClick (navigate href)
