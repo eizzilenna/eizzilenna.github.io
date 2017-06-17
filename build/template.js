@@ -1,6 +1,6 @@
 const template = (content) => `
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Hilmy</title>
     <meta name="description" content="">
