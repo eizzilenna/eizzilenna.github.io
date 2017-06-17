@@ -1,10 +1,8 @@
 module Main exposing (..)
 
-import Components as C
 import Html as H exposing (Html)
-import Html.Attributes as A
-import Html.Events as E
 import Navigation
+import Pages
 
 
 
@@ -20,13 +18,11 @@ main =
 
 -- MODEL
 
-type alias Model =
-  { page : String
-  }
+type alias Model = String
 
 init : Navigation.Location -> ( Model, Cmd Msg )
 init location =
-  ( updatePage location (Model "/")
+  ( location.pathname
   , Cmd.none
   )
 
@@ -40,7 +36,7 @@ update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
     UrlChange location ->
-      ( updatePage location model
+      ( location.pathname
       , Cmd.none
       )
     Navigate path ->
@@ -48,25 +44,9 @@ update msg model =
       , Navigation.newUrl path
       )
 
-updatePage : Navigation.Location -> Model -> Model
-updatePage location model =
-  { model | page = location.pathname }
 
 
 -- VIEW
 
 view : Model -> Html Msg
-view model =
-  let
-    body =
-      case model.page of
-        "/" -> C.about
-        "/drawings" -> C.drawings
-        "/collages" -> C.collages
-        "/interiors" -> C.interiors
-        _ -> C.notFound
-  in
-    C.layout
-      [ C.nav Navigate
-      , body
-      ]
+view = Pages.page Navigate
