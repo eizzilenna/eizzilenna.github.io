@@ -8,7 +8,7 @@
     "dev": "ecstatic ./static --port 9966 & chokidar 'src/*.elm' -c 'npm run build:client'",
     "build": "npm run build:css && npm run build:client && npm run build:html",
     "build:html": "elm-make ./src/Build.elm --output ./build/elm.js && node build",
-    "build:client": "elm-make ./src/Main.elm --output ./static/index.js",
+    "build:client": "elm-make ./src/Main.elm --output ./static/index.js && uglifyjs ./static/index.js --compress --mangle --output ./static/index.min.js",
     "build:css": "cat ./node_modules/tachyons/css/tachyons.min.css ./node_modules/css-max-height-scale/css/css-max-height-scale.min.css > ./static/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,8 @@
     "chokidar-cli": "^1.2.0",
     "ecstatic": "^2.2.1",
     "elm": "^0.18.0",
-    "fs-path": "0.0.23"
+    "fs-path": "0.0.23",
+    "uglify-js": "^3.0.17"
   },
   "license": "ISC"
 }
