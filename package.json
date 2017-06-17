@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "",
   "author": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "npm run build:css && budo index.js --live --dir static",
-    "build": "npm run build:css",
+    "dev": "ecstatic ./static --port 9966 & chokidar 'src/*.elm' -c 'npm run build:client'",
+    "build": "npm run build:css && npm run build:client",
+    "build:client": "elm-make ./src/Main.elm --output ./static/index.js",
     "build:css": "cat ./node_modules/tachyons/css/tachyons.min.css ./node_modules/css-max-height-scale/css/css-max-height-scale.min.css > ./static/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,9 @@
     "tachyons": "^4.7.4"
   },
   "devDependencies": {
-    "budo": "^10.0.3"
+    "chokidar-cli": "^1.2.0",
+    "ecstatic": "^2.2.1",
+    "elm": "^0.18.0"
   },
   "license": "ISC"
 }
