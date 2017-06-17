@@ -6,9 +6,14 @@ import Html.Events as E
 import Json.Decode as Decode
 
 
+
 onClick : msg -> Attribute msg
 onClick message =
   E.onWithOptions "click" (E.Options False True) (Decode.succeed message)
+
+
+
+-- Placeholders
 
 loremParagraph : String
 loremParagraph = """
@@ -40,7 +45,7 @@ loremWorkGroup =
     "Untitled 2."
     "Pencil and ink on paper"
 
--- Components
+
 
 -- Layout
 
@@ -96,7 +101,9 @@ navLinkLast navigate title href =
     ]
     [ H.text title ]
 
--- Articles
+
+
+-- Headers
 
 pageHeader : String -> Html msg
 pageHeader title =
@@ -125,6 +132,7 @@ workHeader title =
     ]
 
 
+-- Works
 
 work : String -> String -> String -> String -> Html msg
 work title media dimensions src =
