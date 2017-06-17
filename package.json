@@ -8,10 +8,11 @@
   "scripts": {
     "dev": "npm run build:css && budo index.js --live --dir static",
     "build": "npm run build:css",
-    "build:css": "cp ./node_modules/tachyons/css/tachyons.min.css ./static/tachyons.min.css",
+    "build:css": "cat ./node_modules/tachyons/css/tachyons.min.css ./node_modules/css-max-height-scale/css/css-max-height-scale.min.css > ./static/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "css-max-height-scale": "^1.0.6",
     "tachyons": "^4.7.4"
   },
   "devDependencies": {
