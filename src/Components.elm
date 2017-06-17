@@ -27,7 +27,7 @@ loremWorkPortrait : Html msg
 loremWorkPortrait =
   work
     "Untitled 1."
-    "Pencil and ink on paper"
+    "Lorem ipsum dolor sit amet"
     "1024 x 576"
     "http://placehold.it/1024x576"
 
@@ -35,7 +35,7 @@ loremWorkLandscape : Html msg
 loremWorkLandscape =
   work
     "Untitled 2."
-    "Pencil and ink on paper"
+    "Lorem ipsum dolor sit amet"
     "1024 x 576"
     "http://placehold.it/640x960"
 
@@ -43,7 +43,7 @@ loremWorkGroup : Html msg
 loremWorkGroup =
   workGroup
     "Untitled 2."
-    "Pencil and ink on paper"
+    "Lorem ipsum dolor sit amet"
 
 
 
