@@ -15,6 +15,9 @@ onClick message =
 
 -- Placeholders
 
+loremTitle : String
+loremTitle = "Lorem ipsum dolor sit amet"
+
 loremParagraph : String
 loremParagraph = """
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
@@ -27,7 +30,7 @@ loremWorkPortrait : Html msg
 loremWorkPortrait =
   work
     "Untitled 1."
-    "Lorem ipsum dolor sit amet"
+    loremTitle
     "1024 x 576"
     "http://placehold.it/1024x576"
 
@@ -35,7 +38,7 @@ loremWorkLandscape : Html msg
 loremWorkLandscape =
   work
     "Untitled 2."
-    "Lorem ipsum dolor sit amet"
+    loremTitle
     "1024 x 576"
     "http://placehold.it/640x960"
 
@@ -43,7 +46,7 @@ loremWorkGroup : Html msg
 loremWorkGroup =
   workGroup
     "Untitled 2."
-    "Lorem ipsum dolor sit amet"
+    loremTitle
 
 
 
@@ -110,7 +113,7 @@ pageHeader title =
   H.article [ A.class "cf ph3 ph5-ns pv5" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h1 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
-        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text "Lorem ipsum dolor sit amet" ]
+        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
         , H.time [ A.class "f6 mt0 ttu tracked gray" ] [ H.text "28-04-1985" ]
         ]
     , H.div [ A.class "fn fl-ns w-50-ns" ]
@@ -124,7 +127,7 @@ workHeader title =
   H.article [ A.class "cf ph3 ph5-ns pv5" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h2 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
-        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text "Lorem ipsum dolor sit amet" ]
+        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
         ]
     , H.div [ A.class "fn fl-ns w-50-ns" ]
         [ H.p [ A.class "f5 lh-copy measure mt0-ns" ] [ H.text loremParagraph ]
@@ -140,7 +143,7 @@ work title media dimensions src =
     [ H.div [ A.class "" ]
         [ H.img [ A.class "db pb2 mxhi6", A.alt title, A.src src ] []
         ]
-    , H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
+    , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ] [ H.text title ]
         , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text media ]
         , H.h4 [ A.class "f6 mt0 fw4 tracked gray" ] [ H.text dimensions ]
@@ -168,7 +171,7 @@ workGroup title media =
             , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
             ]
         ]
-    , H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
+    , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ]
             [ H.text title ]
         , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ]
