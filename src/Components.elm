@@ -104,15 +104,19 @@ navLinkLast navigate title href =
     ]
     [ H.text title ]
 
+scrollToTop : String -> Html msg
+scrollToTop id =
+  H.a [ A.href ("#" ++ id) ] [ H.text "Scroll to top" ]
+
 
 
 -- Headers
 
-pageHeader : String -> Html msg
-pageHeader title =
+pageHeader : String -> String -> Html msg
+pageHeader id title =
   H.article [ A.class "cf ph3 ph5-ns pv5" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
-        [ H.h1 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
+        [ H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
         , H.time [ A.class "f6 mt0 ttu tracked gray" ] [ H.text "28-04-1985" ]
         ]

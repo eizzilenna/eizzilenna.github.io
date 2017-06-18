@@ -29,7 +29,7 @@ pages =
 about : Html msg
 about =
   H.div []
-    [ C.pageHeader "About"
+    [ C.pageHeader "about" "About"
     , C.loremWorkPortrait
     , C.loremWorkLandscape
     , C.loremWorkGroup
@@ -38,16 +38,17 @@ about =
 drawings : Html msg
 drawings =
   H.div []
-    [ C.pageHeader "Drawings"
     , C.loremWorkPortrait
     , C.loremWorkLandscape
     , C.loremWorkGroup
+    [ C.pageHeader "drawings ""Drawings"
+    , C.scrollToTop "drawings"
     ]
 
 collages : Html msg
 collages =
   H.div []
-    [ C.pageHeader "Collages"
+    [ C.pageHeader "collages" "Collages"
     , C.workHeader "Lines and Other Shapes"
     , C.work
         "Two Blocks"
@@ -79,17 +80,19 @@ collages =
         "Pen and Pencil on Paper"
         "297 x 210 mm"
         "/images/lines-and-other-shapes/tally-marks.jpg"
+    , C.scrollToTop "collages"
     ]
 
 interiors : Html msg
 interiors =
   H.div []
-    [ C.pageHeader "Interiors"
+    [ C.pageHeader "interiors" "Interiors"
     , C.loremWorkPortrait
     , C.loremWorkLandscape
     , C.loremWorkGroup
+    , C.scrollToTop "interiors"
     ]
 
 notFound : Html msg
 notFound =
-  C.pageHeader "404"
+  C.pageHeader "404" "404"
