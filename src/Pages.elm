@@ -235,42 +235,42 @@ collages =
         "Mixed media on paper"
         "297 x 210mm"
         "/images/magasin-collage/milton.jpg"
-    , C.workHeader "Dot Series I"
+    , C.workHeader "Dot Series"
     , C.work
         "M"
         "Mixed media on paper"
         "297 x 210mm"
-        "/images/dot-series-i/m.jpg"
+        "/images/dot-series/m.jpg"
     , C.work
         "Exhibits in the Sculpture Gallery"
         "Dots on paper"
         "297 x 210mm"
-        "/images/dot-series-i/exhibits-in-the-scuplture-gallery.jpg"
+        "/images/dot-series/exhibits-in-the-scuplture-gallery.jpg"
     , C.work
         "du"
         "Dots on paper"
         "297 x 210mm"
-        "/images/dot-series-i/du.jpg"
+        "/images/dot-series/du.jpg"
     , C.work
         "Indice Alfabetico Delle Illustrazioni"
         "Mixed media on paper"
         "297 x 210mm"
-        "/images/dot-series-i/indice-alfabetico-delle-illustrazioni.jpg"
+        "/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg"
     , C.work
         "I Am Participating (Draft)"
         "Mixed media on paper"
         "165 x 115 mm"
-        "/images/dot-series-i/i-am-participating.jpg"
+        "/images/dot-series/i-am-participating.jpg"
     , C.work
         "Zema Plast"
         "Mixed media on card"
         "297 x 210mm"
-        "/images/dot-series-i/zema-plast.jpg"
+        "/images/dot-series/zema-plast.jpg"
     , C.work
         "Untitled 73"
         "Mixed media on paper"
         "196 x 145 mm"
-        "/images/dot-series-i/untitled-73.jpg"
+        "/images/dot-series/untitled-73.jpg"
     , C.scrollToTop "collages"
     ]
 
