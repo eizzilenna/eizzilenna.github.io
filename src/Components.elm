@@ -55,7 +55,7 @@ loremWorkGroup =
 layout : List (Html msg) -> Html msg
 layout children =
   H.div [ A.class "center mw8"]
-    [ H.div [ A.class "ph3 ph5-ns" ] children ]
+    [ H.div [ A.class "ph3 ph5-ns pb5" ] children ]
 
 -- Navigation
 
@@ -107,7 +107,11 @@ navLinkLast navigate title href =
 
 scrollToTop : String -> Html msg
 scrollToTop id =
-  H.a [ A.href ("#" ++ id) ] [ H.text "Scroll to top" ]
+  H.div [ A.class "cf" ]
+    [ H.a [ A.class "fr lh-copy dim no-underline dark-gray", A.href ("#" ++ id) ]
+        [ H.text "^ Back to top" ]
+    ]
+
 
 
 
