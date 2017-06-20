@@ -80,7 +80,7 @@ brand navigate =
     ]
     [ H.img
         [ A.class "dib w3 h3 br-100"
-        , A.src "http://placehold.it/100x100"
+        , A.src "http://placehold.it/128x128"
         , A.alt "Hilmy" ] []
     ]
 
