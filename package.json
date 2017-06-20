@@ -1,8 +1,8 @@
 {
-  "name": "hilmy",
+  "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Elizabeth Anne Wright",
   "author": "",
   "scripts": {
     "dev": "ecstatic ./static --port 9966 & chokidar 'src/*.elm' -c 'npm run build:client'",

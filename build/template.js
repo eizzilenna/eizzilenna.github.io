@@ -2,7 +2,7 @@ const template = (content) => `
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hilmy</title>
+    <title>Elizabeth Anne Wright</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">

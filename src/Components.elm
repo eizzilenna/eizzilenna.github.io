@@ -81,8 +81,8 @@ brand navigate =
     ]
     [ H.img
         [ A.class "dib w3 h3 br-100"
-        , A.src "http://placehold.it/128x128"
-        , A.alt "Hilmy" ] []
+        , A.src "/images/brand.jpg"
+        , A.alt "Elizabeth Anne Wright" ] []
     ]
 
 navLink : (String -> msg) -> String -> String -> Html msg
