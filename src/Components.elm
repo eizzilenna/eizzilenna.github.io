@@ -66,7 +66,7 @@ nav navigate =
         [ navLink navigate "About" "/"
         , navLink navigate "Drawings" "/drawings"
         , navLink navigate "Collages" "/collages"
-        , navLink navigate "Interiors" "/interiors"
+        , navLinkLast navigate "Interiors" "/interiors"
         ]
     ]
 
