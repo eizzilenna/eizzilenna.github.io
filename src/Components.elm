@@ -98,7 +98,7 @@ navLink navigate title href =
 navLinkLast : (String -> msg) -> String -> String -> Html msg
 navLinkLast navigate title href =
   H.a
-    [ A.class "dim dark-gray no-underline f6 f5-l dib "
+    [ A.class "dim dark-gray no-underline f6 f5-l dib"
     , A.href href
     , A.title title
     , onClick (navigate href)
