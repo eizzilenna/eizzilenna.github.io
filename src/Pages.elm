@@ -36,10 +36,84 @@ about =
 drawings : Html msg
 drawings =
   H.div []
-    , C.loremWorkPortrait
-    , C.loremWorkLandscape
-    , C.loremWorkGroup
-    [ C.pageHeader "drawings ""Drawings"
+    [ C.pageHeader "drawings" "Drawings"
+    , C.workHeader "Scribbles"
+    , C.work
+        "Untitled 20"
+        "Pencil on paper"
+        "210 x 297 mm"
+        "/images/scribbles/untitled-20.jpg"
+    , C.work
+        "Untitled 52"
+        "Pencil and correction tape on paper"
+        "297 x 210 mm"
+        "/images/scribbles/untitled-52.jpg"
+    , C.work
+        "Twombly 10"
+        "Pencil on paper"
+        "245 x 195 mm"
+        "/images/scribbles/twombly-10.jpg"
+    , C.work
+        "Untitled 48"
+        "Mixed media on paper"
+        "212 x 280 mm"
+        "/images/scribbles/untitled-48.jpg"
+    , C.workHeader "Drawings"
+    , C.work
+        "Self Portrait"
+        "Pencil on paper"
+        "570 x 760 mm"
+        "/images/drawings/self-portrait.jpg"
+    , C.work
+        "Self Portrait Rules"
+        "Typewriter on paper"
+        "297 x 210 mm"
+        "/images/drawings/self-portrait-rules.jpg"
+    , C.work
+        "Self Portrait Measurements 1"
+        "Typewriter on paper"
+        "297 x 210 mm"
+        "/images/drawings/self-portrait-measurements-1.jpg"
+    , C.work
+        "Self Portrait Measurements 2"
+        "Typewriter on paper"
+        "297 x 210 mm"
+        "/images/drawings/self-portrait-measurements-2.jpg"
+    , C.work
+        "Self Portrait Measurements 3"
+        "Typewriter on paper"
+        "297 x 210 mm"
+        "/images/drawings/self-portrait-measurements-3.jpg"
+    , C.work
+        "Black I"
+        "Pencil on paper"
+        "760 x 570 mm"
+        "/images/drawings/black-i.jpg"
+    , C.work
+        "Black II"
+        "Etching"
+        "740 x 525 mm"
+        "/images/drawings/black-ii.jpg"
+    , C.work
+        "I Went Too"
+        "Pencil on paper"
+        "570 x 760 mm"
+        "/images/drawings/i-went-too.jpg"
+    , C.work
+        "After I Went Too"
+        "Pencil on paper"
+        "570 x 760 mm"
+        "/images/drawings/after-i-went-too.jpg"
+    , C.work
+        "Pencil on Paper"
+        "Pencil on paper"
+        "760 x 570 mm"
+        "/images/drawings/pencil-on-paper.jpg"
+    , C.work
+        "Eduardo Marquina"
+        "Pencil on paper"
+        "570 x 760 mm"
+        "/images/drawings/eduardo-marquina.jpg"
     , C.scrollToTop "drawings"
     ]
 
@@ -47,6 +121,52 @@ collages : Html msg
 collages =
   H.div []
     [ C.pageHeader "collages" "Collages"
+    , C.workHeader "Postcards"
+    , C.work
+        "Untitled 1"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-1.jpg"
+    , C.work
+        "Untitled 2"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-2.jpg"
+    , C.work
+        "Untitled 3"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-3.jpg"
+    , C.work
+        "Untitled 4"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-4.jpg"
+    , C.work
+        "Untitled 5"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-5.jpg"
+    , C.work
+        "Untitled 6"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-6.jpg"
+    , C.work
+        "Untitled 7"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-7.jpg"
+    , C.work
+        "Untitled 8"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-8.jpg"
+    , C.work
+        "Untitled 9"
+        "Mixed media on card"
+        "105 x 148 mm"
+        "/images/postcards/untitled-9.jpg"
     , C.workHeader "Lines and Other Shapes"
     , C.work
         "Two Blocks"
@@ -78,6 +198,79 @@ collages =
         "Pen and pencil on paper"
         "297 x 210 mm"
         "/images/lines-and-other-shapes/tally-marks.jpg"
+    , C.workHeader "Bird Collages"
+    , C.work
+        "Grey Wagtail"
+        "Mixed media on paper"
+        "297 x 210 mm"
+        "/images/bird-collages/grey-wagtail.jpg"
+    , C.work
+        "Yellow Bird"
+        "Mixed media on paper"
+        "170 x 170 mm"
+        "/images/bird-collages/yellow-bird.jpg"
+    , C.work
+        "Blue Bird"
+        "Mixed media on paper"
+        "170 x 120 mm"
+        "/images/bird-collages/blue-bird.jpg"
+    , C.workHeader "Magasin Collage"
+    , C.work
+       "Design"
+       "Mixed media on paper"
+       "297 x 210mm"
+       "/images/magasin-collage/design.jpg"
+    , C.work
+        "Yellow Can"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/magasin-collage/yellow-can.jpg"
+    , C.work
+        "Guilt Tripping, Nice World"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/magasin-collage/guilt-tripping-nice-world.jpg"
+    , C.work
+        "Milton"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/magasin-collage/milton.jpg"
+    , C.workHeader "Dot Series I"
+    , C.work
+        "M"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/dot-series-i/m.jpg"
+    , C.work
+        "Exhibits in the Sculpture Gallery"
+        "Dots on paper"
+        "297 x 210mm"
+        "/images/dot-series-i/exhibits-in-the-scuplture-gallery.jpg"
+    , C.work
+        "du"
+        "Dots on paper"
+        "297 x 210mm"
+        "/images/dot-series-i/du.jpg"
+    , C.work
+        "Indice Alfabetico Delle Illustrazioni"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/dot-series-i/indice-alfabetico-delle-illustrazioni.jpg"
+    , C.work
+        "I Am Participating (Draft)"
+        "Mixed media on paper"
+        "165 x 115 mm"
+        "/images/dot-series-i/i-am-participating.jpg"
+    , C.work
+        "Zema Plast"
+        "Mixed media on card"
+        "297 x 210mm"
+        "/images/dot-series-i/zema-plast.jpg"
+    , C.work
+        "Untitled 73"
+        "Mixed media on paper"
+        "196 x 145 mm"
+        "/images/dot-series-i/untitled-73.jpg"
     , C.scrollToTop "collages"
     ]
 
