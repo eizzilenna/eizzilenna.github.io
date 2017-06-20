@@ -59,15 +59,19 @@ layout children =
 
 -- Navigation
 
-nav : (String -> msg) -> Html msg
-nav navigate =
+activeClass : String -> String -> String
+activeClass path href =
+  if (path == href) then "underline" else "no-underline"
+
+nav : (String -> msg) -> String -> Html msg
+nav navigate path =
   H.nav [ A.class "db dt-l w-100 border-box pb5 pt4" ]
     [ brand navigate
     , H.div [ A.class "db dtc-l v-mid w-100 w-75-l tc tr-l" ]
-        [ navLink navigate "About" "/"
-        , navLink navigate "Drawings" "/drawings"
-        , navLink navigate "Collages" "/collages"
-        , navLinkLast navigate "Interiors" "/interiors"
+        [ navLink navigate "About" "/" (activeClass path "/")
+        , navLink navigate "Drawings" "/drawings" (activeClass path "/drawings")
+        , navLink navigate "Collages" "/collages" (activeClass path "/collages")
+        , navLinkLast navigate "Interiors" "/interiors" (activeClass path "/interiors")
         ]
     ]
 
@@ -85,20 +89,22 @@ brand navigate =
         , A.alt "Elizabeth Anne Wright" ] []
     ]
 
-navLink : (String -> msg) -> String -> String -> Html msg
-navLink navigate title href =
+navLink : (String -> msg) -> String -> String -> String -> Html msg
+navLink navigate title href class =
   H.a
-    [ A.class "dim dark-gray no-underline f6 f5-l dib mr2 mr3-l"
+    [ A.class "dim dark-gray f6 f5-l dib mr2 mr3-l"
+    , A.class class
     , A.href href
     , A.title title
     , onClick (navigate href)
     ]
     [ H.text title ]
 
-navLinkLast : (String -> msg) -> String -> String -> Html msg
-navLinkLast navigate title href =
+navLinkLast : (String -> msg) -> String -> String -> String -> Html msg
+navLinkLast navigate title href class =
   H.a
-    [ A.class "dim dark-gray no-underline f6 f5-l dib"
+    [ A.class "dim dark-gray f6 f5-l dib"
+    , A.class class
     , A.href href
     , A.title title
     , onClick (navigate href)
