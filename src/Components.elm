@@ -54,13 +54,14 @@ loremWorkGroup =
 
 layout : List (Html msg) -> Html msg
 layout children =
-  H.div [ A.class "center mw8"] children
+  H.div [ A.class "center mw8"]
+    [ H.div [ A.class "ph3 ph5-ns" ] children ]
 
 -- Navigation
 
 nav : (String -> msg) -> Html msg
 nav navigate =
-  H.nav [ A.class "db dt-l w-100 border-box pa4 ph5-l" ]
+  H.nav [ A.class "db dt-l w-100 border-box pb5 pt4" ]
     [ brand navigate
     , H.div [ A.class "db dtc-l v-mid w-100 w-75-l tc tr-l" ]
         [ navLink navigate "About" "/"
@@ -114,7 +115,7 @@ scrollToTop id =
 
 pageHeader : String -> String -> Html msg
 pageHeader id title =
-  H.article [ A.class "cf ph3 ph5-ns pv5" ]
+  H.article [ A.class "cf pb5 pt3" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
@@ -128,7 +129,7 @@ pageHeader id title =
 
 workHeader : String -> Html msg
 workHeader title =
-  H.article [ A.class "cf ph3 ph5-ns pv5" ]
+  H.article [ A.class "cf pv5" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h2 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
@@ -141,12 +142,14 @@ workHeader title =
 
 -- Works
 
+image : String -> String -> Html msg
+image title src =
+  H.img [ A.class "db mxhi6", A.alt title, A.src src ] []
+
 work : String -> String -> String -> String -> Html msg
 work title media dimensions src =
-  H.article [ A.class "cf ph3 ph5-ns pv5" ]
-    [ H.div [ A.class "" ]
-        [ H.img [ A.class "db pb2 mxhi6", A.alt title, A.src src ] []
-        ]
+  H.article [ A.class "cf pv5" ]
+    [ H.div [ A.class "" ] [ image title src ]
     , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ] [ H.text title ]
         , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text media ]
@@ -156,7 +159,7 @@ work title media dimensions src =
 
 workGroup : String -> String -> Html msg
 workGroup title media =
-  H.article [ A.class "cf ph3 ph5-ns pv5" ]
+  H.article [ A.class "cf pv5" ]
     [ H.div [ A.class "cf" ]
         [ H.div [ A.class "fl w-100 w-50-ns ph0" ]
             [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
