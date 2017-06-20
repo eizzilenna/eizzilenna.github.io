@@ -29,10 +29,8 @@ pages =
 about : Html msg
 about =
   H.div []
-    [ C.pageHeader "about" "About"
-    , C.loremWorkPortrait
-    , C.loremWorkLandscape
-    , C.loremWorkGroup
+    [ C.image "Elizabeth Anne Wright" "http://placehold.it/960x240"
+    , C.pageHeader "about" "About"
     ]
 
 drawings : Html msg
