@@ -12,7 +12,7 @@ import Html as H exposing (Attribute, Html)
 page : (String -> msg) -> String -> Html msg
 page navigate path =
   C.layout
-    [ C.nav navigate
+    [ C.nav navigate path
     , Dict.get path pages |> Maybe.withDefault notFound
     ]
 
