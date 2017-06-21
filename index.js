@@ -8481,8 +8481,8 @@ var _eizzilenna$portfolio$Components$layout = function (children) {
 };
 var _eizzilenna$portfolio$Components$loremParagraph = '\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n';
 var _eizzilenna$portfolio$Components$loremTitle = 'Lorem ipsum dolor sit amet';
-var _eizzilenna$portfolio$Components$loremWorkPortrait = A4(_eizzilenna$portfolio$Components$work, 'Untitled 1.', _eizzilenna$portfolio$Components$loremTitle, '1024 x 576', 'http://placehold.it/1024x576');
-var _eizzilenna$portfolio$Components$loremWorkLandscape = A4(_eizzilenna$portfolio$Components$work, 'Untitled 2.', _eizzilenna$portfolio$Components$loremTitle, '1024 x 576', 'http://placehold.it/640x960');
+var _eizzilenna$portfolio$Components$loremWorkPortrait = A4(_eizzilenna$portfolio$Components$work, 'Untitled 1.', _eizzilenna$portfolio$Components$loremTitle, '1024 x 576', 'https://placehold.it/1024x576');
+var _eizzilenna$portfolio$Components$loremWorkLandscape = A4(_eizzilenna$portfolio$Components$work, 'Untitled 2.', _eizzilenna$portfolio$Components$loremTitle, '1024 x 576', 'https://placehold.it/640x960');
 var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 	_eizzilenna$portfolio$Components$workGroup,
 	'Untitled 2.',
@@ -8505,7 +8505,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 						_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 						_1: {
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/480x640'),
+							_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/480x640'),
 							_1: {ctor: '[]'}
 						}
 					},
@@ -8519,7 +8519,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 							_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 							_1: {
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/640x480'),
+								_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/640x480'),
 								_1: {ctor: '[]'}
 							}
 						},
@@ -8545,7 +8545,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 							_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 							_1: {
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/480x640'),
+								_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/480x640'),
 								_1: {ctor: '[]'}
 							}
 						},
@@ -8559,7 +8559,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 								_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 								_1: {
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/640x640'),
+									_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/640x640'),
 									_1: {ctor: '[]'}
 								}
 							},
@@ -8573,7 +8573,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 									_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 									_1: {
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/640x480'),
+										_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/640x480'),
 										_1: {ctor: '[]'}
 									}
 								},
@@ -8587,7 +8587,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/480x640'),
+											_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/480x640'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -8615,7 +8615,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 								_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 								_1: {
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/640x480'),
+									_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/640x480'),
 									_1: {ctor: '[]'}
 								}
 							},
@@ -8629,7 +8629,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 									_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 									_1: {
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/480x640'),
+										_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/480x640'),
 										_1: {ctor: '[]'}
 									}
 								},
@@ -8643,7 +8643,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/480x640'),
+											_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/480x640'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -8657,7 +8657,7 @@ var _eizzilenna$portfolio$Components$loremWorkGroup = A3(
 											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/640x640'),
+												_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/640x640'),
 												_1: {ctor: '[]'}
 											}
 										},
@@ -10145,7 +10145,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/800x1200'),
+											_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -10170,7 +10170,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+												_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 												_1: {ctor: '[]'}
 											}
 										},
@@ -10184,7 +10184,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 													_1: {ctor: '[]'}
 												}
 											},
@@ -10219,7 +10219,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/800x1200'),
+												_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
 												_1: {ctor: '[]'}
 											}
 										},
@@ -10244,7 +10244,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 													_1: {ctor: '[]'}
 												}
 											},
@@ -10258,7 +10258,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+														_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 														_1: {ctor: '[]'}
 													}
 												},
@@ -10293,7 +10293,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/800x1200'),
+													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
 													_1: {ctor: '[]'}
 												}
 											},
@@ -10318,7 +10318,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+														_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 														_1: {ctor: '[]'}
 													}
 												},
@@ -10332,7 +10332,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+															_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10367,7 +10367,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/800x1200'),
+														_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
 														_1: {ctor: '[]'}
 													}
 												},
@@ -10392,7 +10392,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+															_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10406,7 +10406,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 															_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('http://placehold.it/1200x800'),
+																_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 																_1: {ctor: '[]'}
 															}
 														},
@@ -10657,7 +10657,7 @@ var _eizzilenna$portfolio$Pages$about = A2(
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: A2(_eizzilenna$portfolio$Components$image, 'Elizabeth Anne Wright', 'http://placehold.it/960x240'),
+		_0: A2(_eizzilenna$portfolio$Components$image, 'Elizabeth Anne Wright', 'https://placehold.it/960x240'),
 		_1: {
 			ctor: '::',
 			_0: A2(_eizzilenna$portfolio$Components$pageHeader, 'about', 'About'),
