@@ -29,7 +29,7 @@ pages =
 about : Html msg
 about =
   H.div []
-    [ C.image "Elizabeth Anne Wright" "http://placehold.it/960x240"
+    [ C.image "Elizabeth Anne Wright" "https://placehold.it/960x240"
     , C.pageHeader "about" "About"
     ]
 
@@ -293,44 +293,44 @@ interiors =
       "Desk Area"
       C.loremTitle
       [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/800x1200" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
           ]
       , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
           ]
       ]
     , C.workGroup
       "Dining Area"
       C.loremTitle
       [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/800x1200" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
           ]
       , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
           ]
       ]
     , C.workGroup
       "Sitting Room"
       C.loremTitle
       [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/800x1200" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
           ]
       , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
           ]
       ]
     , C.workGroup
       "Hallway"
       C.loremTitle
       [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/800x1200" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
           ]
       , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/1200x800" ] []
+          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
           ]
       ]
     ]

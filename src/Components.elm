@@ -32,7 +32,7 @@ loremWorkPortrait =
     "Untitled 1."
     loremTitle
     "1024 x 576"
-    "http://placehold.it/1024x576"
+    "https://placehold.it/1024x576"
 
 loremWorkLandscape : Html msg
 loremWorkLandscape =
@@ -40,7 +40,7 @@ loremWorkLandscape =
     "Untitled 2."
     loremTitle
     "1024 x 576"
-    "http://placehold.it/640x960"
+    "https://placehold.it/640x960"
 
 loremWorkGroup : Html msg
 loremWorkGroup =
@@ -48,20 +48,20 @@ loremWorkGroup =
     "Untitled 2."
     loremTitle
     [ H.div [ A.class "fl w-100 w-50-ns ph0" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
+        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
         ]
     , H.div [ A.class "fl w-50 w-25-ns pl0 pl3-ns" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
         ]
     , H.div [ A.class "fl w-50 w-25-ns pl3" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
+        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x640" ] []
         ]
     ]
 
