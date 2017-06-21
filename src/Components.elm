@@ -140,30 +140,31 @@ scrollToTop id =
 
 -- Headers
 
-pageHeader : String -> String -> Html msg
-pageHeader id title =
+leadParagraph : String -> Html msg
+leadParagraph content = H.p [ A.class "f5 lh-copy measure mt0-ns" ] [ H.text content ]
+
+paragraph : String -> Html msg
+paragraph content =
+  H.p [ A.class "f5 lh-copy measure" ] [ H.text content ]
+
+pageHeader : String -> String -> String -> Maybe String -> Html msg
+pageHeader id title subTitle content =
   H.article [ A.class "cf pb5 pt3" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
-        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
-        , H.time [ A.class "f6 mt0 ttu tracked gray" ] [ H.text "28-04-1985" ]
+        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text subTitle ]
         ]
-    , H.div [ A.class "fn fl-ns w-50-ns" ]
-        [ H.p [ A.class "f5 lh-copy measure mt0-ns" ] [ H.text loremParagraph ]
-        , H.p [ A.class "f5 lh-copy measure" ] [ H.text loremParagraph ]
-        ]
+    , H.div [ A.class "fn fl-ns w-50-ns" ] [ Maybe.map leadParagraph content |> Maybe.withDefault (H.text "") ]
     ]
 
-workHeader : String -> Html msg
-workHeader title =
+workHeader : String -> String -> String -> Html msg
+workHeader title subTitle content =
   H.article [ A.class "cf pv5" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h2 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
-        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text loremTitle ]
+        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text subTitle ]
         ]
-    , H.div [ A.class "fn fl-ns w-50-ns" ]
-        [ H.p [ A.class "f5 lh-copy measure mt0-ns" ] [ H.text loremParagraph ]
-        ]
+    , H.div [ A.class "fn fl-ns w-50-ns" ] [ leadParagraph content ]
     ]
 
 

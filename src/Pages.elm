@@ -30,14 +30,14 @@ about : Html msg
 about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "https://placehold.it/960x240"
-    , C.pageHeader "about" "About"
+    , C.pageHeader "about" "About" C.loremTitle (Just C.loremParagraph)
     ]
 
 drawings : Html msg
 drawings =
   H.div []
-    [ C.pageHeader "drawings" "Drawings"
-    , C.workHeader "Scribbles"
+    [ C.pageHeader "drawings" "Drawings" C.loremTitle (Just C.loremParagraph)
+    , C.workHeader "Scribbles" C.loremTitle C.loremParagraph
     , C.work
         "Untitled 20"
         "Pencil on paper"
@@ -58,7 +58,7 @@ drawings =
         "Mixed media on paper"
         "212 x 280 mm"
         "/images/scribbles/untitled-48.jpg"
-    , C.workHeader "Drawings"
+    , C.workHeader "Drawings" C.loremTitle C.loremParagraph
     , C.work
         "Self Portrait"
         "Pencil on paper"
@@ -120,8 +120,8 @@ drawings =
 collages : Html msg
 collages =
   H.div []
-    [ C.pageHeader "collages" "Collages"
-    , C.workHeader "Postcards"
+    [ C.pageHeader "collages" "Collages" C.loremTitle (Just C.loremParagraph)
+    , C.workHeader "Postcards" C.loremTitle C.loremParagraph
     , C.work
         "Untitled 1"
         "Mixed media on card"
@@ -167,7 +167,7 @@ collages =
         "Mixed media on card"
         "105 x 148 mm"
         "/images/postcards/untitled-9.jpg"
-    , C.workHeader "Lines and Other Shapes"
+    , C.workHeader "Lines and Other Shapes" C.loremTitle C.loremParagraph
     , C.work
         "Two Blocks"
         "Pencil and ink on paper"
@@ -198,7 +198,7 @@ collages =
         "Pen and pencil on paper"
         "297 x 210 mm"
         "/images/lines-and-other-shapes/tally-marks.jpg"
-    , C.workHeader "Bird Collages"
+    , C.workHeader "Bird Collages" C.loremTitle C.loremParagraph
     , C.work
         "Grey Wagtail"
         "Mixed media on paper"
@@ -214,7 +214,7 @@ collages =
         "Mixed media on paper"
         "170 x 120 mm"
         "/images/bird-collages/blue-bird.jpg"
-    , C.workHeader "Magasin Collage"
+    , C.workHeader "Magasin Collage" C.loremTitle C.loremParagraph
     , C.work
        "Design"
        "Mixed media on paper"
@@ -235,7 +235,7 @@ collages =
         "Mixed media on paper"
         "297 x 210mm"
         "/images/magasin-collage/milton.jpg"
-    , C.workHeader "Dot Series"
+    , C.workHeader "Dot Series" C.loremTitle C.loremParagraph
     , C.work
         "M"
         "Mixed media on paper"
@@ -277,7 +277,7 @@ collages =
 interiors : Html msg
 interiors =
   H.div []
-    [ C.pageHeader "interiors" "Interiors"
+    [ C.pageHeader "interiors" "Interiors" C.loremTitle (Just C.loremParagraph)
     , C.workGroup
       "Bookshelf"
       C.loremTitle
@@ -337,4 +337,4 @@ interiors =
 
 notFound : Html msg
 notFound =
-  C.pageHeader "404" "404"
+  C.pageHeader "404" "404" "Nothing to see here." Nothing
