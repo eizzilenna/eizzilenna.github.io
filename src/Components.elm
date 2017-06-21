@@ -47,6 +47,23 @@ loremWorkGroup =
   workGroup
     "Untitled 2."
     loremTitle
+    [ H.div [ A.class "fl w-100 w-50-ns ph0" ]
+        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
+        ]
+    , H.div [ A.class "fl w-50 w-25-ns pl0 pl3-ns" ]
+        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        ]
+    , H.div [ A.class "fl w-50 w-25-ns pl3" ]
+        [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
+        , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
+        ]
+    ]
 
 
 
@@ -167,27 +184,10 @@ work title media dimensions src =
         ]
     ]
 
-workGroup : String -> String -> Html msg
-workGroup title media =
+workGroup : String -> String -> List (Html msg) -> Html msg
+workGroup title media children =
   H.article [ A.class "cf pv5" ]
-    [ H.div [ A.class "cf" ]
-        [ H.div [ A.class "fl w-100 w-50-ns ph0" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
-            ]
-        , H.div [ A.class "fl w-50 w-25-ns pl0 pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-            ]
-        , H.div [ A.class "fl w-50 w-25-ns pl3" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x480" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/480x640" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "http://placehold.it/640x640" ] []
-            ]
-        ]
+    [ H.div [ A.class "cf" ] children
     , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ]
             [ H.text title ]

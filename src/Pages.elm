@@ -6,7 +6,7 @@ module Pages exposing
 import Components as C
 import Dict exposing (Dict)
 import Html as H exposing (Attribute, Html)
-
+import Html.Attributes as A
 
 
 page : (String -> msg) -> String -> Html msg
@@ -278,10 +278,17 @@ interiors : Html msg
 interiors =
   H.div []
     [ C.pageHeader "interiors" "Interiors"
-    , C.loremWorkPortrait
-    , C.loremWorkLandscape
-    , C.loremWorkGroup
-    , C.scrollToTop "interiors"
+    , C.workGroup
+      "Bookshelf"
+      C.loremTitle
+      [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
+          ]
+      , H.div [ A.class "fl w-100 w-50-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
+          ]
+      ]
     ]
 
 notFound : Html msg
