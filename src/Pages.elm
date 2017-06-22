@@ -155,6 +155,33 @@ collages =
             [ C.groupImage "/images/magasin-collage/milton.jpg" ]
         ]
     , C.workGroup
+        "Zema Plast + M"
+        "Mixed media on paper"
+        "Each 297 x 210mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/dot-series/zema-plast.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/dot-series/m.jpg" ]
+        ]
+    , C.workGroup
+        "Exhibits in the Sculpture Gallery + du"
+        "Mixed media on paper"
+        "Each 297 x 210mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/dot-series/exhibits-in-the-scuplture-gallery.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/dot-series/du.jpg" ]
+        ]
+    , C.workGroup
+        "I Am Participating (Draft) + Indice Alfabetico Delle Illustrazioni"
+        "Mixed media on paper"
+        "165 x 115 mm + 297 x 210mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/dot-series/i-am-participating.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg" ]
+        ]
+    , C.workGroup
         "Postcards"
         "Mixed media on card"
         "Each 105 x 148 mm"
@@ -189,41 +216,6 @@ collages =
         "Mixed media on paper"
         "170 x 120 mm"
         "/images/bird-collages/blue-bird.jpg"
-    , C.work
-        "M"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/dot-series/m.jpg"
-    , C.work
-        "Exhibits in the Sculpture Gallery"
-        "Dots on paper"
-        "297 x 210mm"
-        "/images/dot-series/exhibits-in-the-scuplture-gallery.jpg"
-    , C.work
-        "du"
-        "Dots on paper"
-        "297 x 210mm"
-        "/images/dot-series/du.jpg"
-    , C.work
-        "Indice Alfabetico Delle Illustrazioni"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg"
-    , C.work
-        "I Am Participating (Draft)"
-        "Mixed media on paper"
-        "165 x 115 mm"
-        "/images/dot-series/i-am-participating.jpg"
-    , C.work
-        "Zema Plast"
-        "Mixed media on card"
-        "297 x 210mm"
-        "/images/dot-series/zema-plast.jpg"
-    , C.work
-        "Untitled 73"
-        "Mixed media on paper"
-        "196 x 145 mm"
-        "/images/dot-series/untitled-73.jpg"
     , C.scrollToTop "collages"
     ]
 
