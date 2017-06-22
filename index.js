@@ -10334,35 +10334,81 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 			_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 20', 'Pencil on paper', '210 x 297 mm', '/images/scribbles/untitled-20.jpg'),
 			_1: {
 				ctor: '::',
-				_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 52', 'Pencil and correction tape on paper', '297 x 210 mm', '/images/scribbles/untitled-52.jpg'),
-				_1: {
-					ctor: '::',
-					_0: A4(_eizzilenna$portfolio$Components$work, 'Twombly 10', 'Pencil on paper', '245 x 195 mm', '/images/scribbles/twombly-10.jpg'),
-					_1: {
+				_0: A4(
+					_eizzilenna$portfolio$Components$workGroup,
+					'Untitled 52 + Twombly 10',
+					'Pencil and correction tape on paper + Pencil on paper',
+					'297 x 210 mm + 245 x 195 mm',
+					{
 						ctor: '::',
-						_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 48', 'Mixed media on paper', '212 x 280 mm', '/images/scribbles/untitled-48.jpg'),
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/scribbles/untitled-52.jpg'),
+								_1: {ctor: '[]'}
+							}),
 						_1: {
 							ctor: '::',
-							_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait', 'Pencil on paper', '570 x 760 mm', '/images/drawings/self-portrait.jpg'),
-							_1: {
-								ctor: '::',
-								_0: A4(
-									_eizzilenna$portfolio$Components$workGroup,
-									'Self Portrait Rules + Measurements',
-									'Typewriter on paper',
-									'Each 297 x 210 mm',
-									{
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/scribbles/twombly-10.jpg'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 48', 'Mixed media on paper', '212 x 280 mm', '/images/scribbles/untitled-48.jpg'),
+					_1: {
+						ctor: '::',
+						_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait', 'Pencil on paper', '570 x 760 mm', '/images/drawings/self-portrait.jpg'),
+						_1: {
+							ctor: '::',
+							_0: A4(
+								_eizzilenna$portfolio$Components$workGroup,
+								'Self Portrait Rules + Measurements',
+								'Typewriter on paper',
+								'Each 297 x 210 mm',
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pr2-ns'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-rules.jpg'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {
 										ctor: '::',
 										_0: A2(
 											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pr2-ns'),
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl1-ns pr1-ns'),
 												_1: {ctor: '[]'}
 											},
 											{
 												ctor: '::',
-												_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-rules.jpg'),
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-1.jpg'),
 												_1: {ctor: '[]'}
 											}),
 										_1: {
@@ -10376,7 +10422,7 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 												},
 												{
 													ctor: '::',
-													_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-1.jpg'),
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-2.jpg'),
 													_1: {ctor: '[]'}
 												}),
 											_1: {
@@ -10385,156 +10431,141 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 													_elm_lang$html$Html$div,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl1-ns pr1-ns'),
+														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl2-ns'),
 														_1: {ctor: '[]'}
 													},
 													{
 														ctor: '::',
-														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-2.jpg'),
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-3.jpg'),
 														_1: {ctor: '[]'}
 													}),
-												_1: {
-													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$div,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl2-ns'),
-															_1: {ctor: '[]'}
-														},
-														{
-															ctor: '::',
-															_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-3.jpg'),
-															_1: {ctor: '[]'}
-														}),
-													_1: {ctor: '[]'}
-												}
+												_1: {ctor: '[]'}
 											}
+										}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A4(
+									_eizzilenna$portfolio$Components$workGroup,
+									'Black I + II',
+									'Pencil on paper + Etching',
+									'760 x 570 mm + 740 x 525 mm',
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-i.jpg'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$div,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-ii.jpg'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
 										}
 									}),
 								_1: {
 									ctor: '::',
 									_0: A4(
 										_eizzilenna$portfolio$Components$workGroup,
-										'Black I + II',
-										'Pencil on paper + Etching',
-										'760 x 570 mm + 740 x 525 mm',
+										'I Went Too + After I Went Too',
+										'Pencil on paper',
+										'Each 570 x 760 mm',
 										{
 											ctor: '::',
 											_0: A2(
 												_elm_lang$html$Html$div,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+													_0: _elm_lang$html$Html_Attributes$class('w-100 w-70-ns'),
 													_1: {ctor: '[]'}
 												},
 												{
 													ctor: '::',
-													_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-i.jpg'),
-													_1: {ctor: '[]'}
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/i-went-too.jpg'),
+													_1: {
+														ctor: '::',
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/after-i-went-too.jpg'),
+														_1: {ctor: '[]'}
+													}
 												}),
-											_1: {
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$div,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
-														_1: {ctor: '[]'}
-													},
-													{
-														ctor: '::',
-														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-ii.jpg'),
-														_1: {ctor: '[]'}
-													}),
-												_1: {ctor: '[]'}
-											}
+											_1: {ctor: '[]'}
 										}),
 									_1: {
 										ctor: '::',
-										_0: A4(
-											_eizzilenna$portfolio$Components$workGroup,
-											'I Went Too + After I Went Too',
-											'Pencil on paper',
-											'Each 570 x 760 mm',
-											{
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$div,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('w-100 w-70-ns'),
-														_1: {ctor: '[]'}
-													},
-													{
-														ctor: '::',
-														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/i-went-too.jpg'),
-														_1: {
-															ctor: '::',
-															_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/after-i-went-too.jpg'),
-															_1: {ctor: '[]'}
-														}
-													}),
-												_1: {ctor: '[]'}
-											}),
+										_0: A4(_eizzilenna$portfolio$Components$work, 'Eduardo Marquina', 'Pencil on paper', '570 x 760 mm', '/images/drawings/eduardo-marquina.jpg'),
 										_1: {
 											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'Eduardo Marquina', 'Pencil on paper', '570 x 760 mm', '/images/drawings/eduardo-marquina.jpg'),
+											_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
 											_1: {
 												ctor: '::',
-												_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
+												_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
-													_1: {
-														ctor: '::',
-														_0: A4(
-															_eizzilenna$portfolio$Components$workGroup,
-															'Tally Marks + Black Lines',
-															'Pen and pencil on paper + Ink on paper',
-															'Each 297 x 210 mm',
-															{
+													_0: A4(
+														_eizzilenna$portfolio$Components$workGroup,
+														'Tally Marks + Black Lines',
+														'Pen and pencil on paper + Ink on paper',
+														'Each 297 x 210 mm',
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$div,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+																	_1: {ctor: '[]'}
+																},
+																{
+																	ctor: '::',
+																	_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/tally-marks.jpg'),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
 																ctor: '::',
 																_0: A2(
 																	_elm_lang$html$Html$div,
 																	{
 																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+																		_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
 																		_1: {ctor: '[]'}
 																	},
 																	{
 																		ctor: '::',
-																		_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/tally-marks.jpg'),
+																		_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/black-lines.jpg'),
 																		_1: {ctor: '[]'}
 																	}),
-																_1: {
-																	ctor: '::',
-																	_0: A2(
-																		_elm_lang$html$Html$div,
-																		{
-																			ctor: '::',
-																			_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
-																			_1: {ctor: '[]'}
-																		},
-																		{
-																			ctor: '::',
-																			_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/black-lines.jpg'),
-																			_1: {ctor: '[]'}
-																		}),
-																	_1: {ctor: '[]'}
-																}
-															}),
+																_1: {ctor: '[]'}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
 														_1: {
 															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+															_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
 															_1: {
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
-																_1: {
-																	ctor: '::',
-																	_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
-																	_1: {ctor: '[]'}
-																}
+																_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
+																_1: {ctor: '[]'}
 															}
 														}
 													}
