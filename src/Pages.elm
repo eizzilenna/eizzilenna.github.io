@@ -137,6 +137,24 @@ collages =
     [ C.pageHeader "collages" "Collages"
         [ C.leadParagraph C.loremParagraph ]
     , C.workGroup
+        "Yellow Can + Guilt Tripping, Nice World"
+        "Mixed media on paper"
+        "Each 297 x 210mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/magasin-collage/yellow-can.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/magasin-collage/guilt-tripping-nice-world.jpg" ]
+        ]
+    , C.workGroup
+        "Design + Milton"
+        "Mixed media on paper"
+        "Each 297 x 210mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/magasin-collage/design.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/magasin-collage/milton.jpg" ]
+        ]
+    , C.workGroup
         "Postcards"
         "Mixed media on card"
         "Each 105 x 148 mm"
@@ -171,26 +189,6 @@ collages =
         "Mixed media on paper"
         "170 x 120 mm"
         "/images/bird-collages/blue-bird.jpg"
-    , C.work
-        "Design"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/magasin-collage/design.jpg"
-    , C.work
-        "Yellow Can"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/magasin-collage/yellow-can.jpg"
-    , C.work
-        "Guilt Tripping, Nice World"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/magasin-collage/guilt-tripping-nice-world.jpg"
-    , C.work
-        "Milton"
-        "Mixed media on paper"
-        "297 x 210mm"
-        "/images/magasin-collage/milton.jpg"
     , C.work
         "M"
         "Mixed media on paper"
