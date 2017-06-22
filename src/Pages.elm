@@ -290,14 +290,26 @@ interiors =
           ]
       ]
     , C.workGroup
-      "Desk Area"
+      "Desk"
       C.loremTitle
-      [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
+      [ H.div [ A.class "fl w-100 w-40-ns pr3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/desk/desk-1.jpg" ] []
           ]
-      , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+      , H.div [ A.class "fl w-100 w-60-ns" ]
+          [ H.div [ A.class "fl w-100 w-60-ns pr2-ns" ]
+              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-2.jpg" ] []
+              ]
+          , H.div [ A.class "fl w-100 w-40-ns pl2-ns" ]
+              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-3.jpg" ] []
+              ]
+          ]
+      , H.div [ A.class "fl w-100 w-60-ns" ]
+          [ H.div [ A.class "fl w-100 w-40-ns pr2-ns" ]
+              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-4.jpg" ] []
+              ]
+          , H.div [ A.class "fl w-100 w-60-ns pl2-ns" ]
+              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-5.jpg" ] []
+              ]
           ]
       ]
     , C.workGroup
