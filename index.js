@@ -10179,8 +10179,64 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			},
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
-				_1: {ctor: '[]'}
+				_0: _eizzilenna$portfolio$Components$leadParagraph('Collage: noun.'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$ol,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('f5 lh-title measure'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$li,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('pb2'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('a piece of art made by sticking various different materials such as photographs and pieces of paper or fabric on to a backing.'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$li,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('pb2'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('the art of making collages.'),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$li,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('pb2'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('a collection or combination of various things.'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {ctor: '[]'}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
 			}),
 		_1: {
 			ctor: '::',
