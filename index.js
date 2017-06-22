@@ -8541,25 +8541,20 @@ var _eizzilenna$portfolio$Components$pageHeader = F2(
 				}
 			});
 	});
-var _eizzilenna$portfolio$Components$h1 = F2(
-	function (id, title) {
-		return A2(
-			_elm_lang$html$Html$h1,
-			{
-				ctor: '::',
-				_0: _elm_lang$html$Html_Attributes$id(id),
-				_1: {
-					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('f2 lh-title fw6 mb1 mt0 pt3 bt bw1'),
-					_1: {ctor: '[]'}
-				}
-			},
-			{
-				ctor: '::',
-				_0: _elm_lang$html$Html$text(title),
-				_1: {ctor: '[]'}
-			});
-	});
+var _eizzilenna$portfolio$Components$h1 = function (title) {
+	return A2(
+		_elm_lang$html$Html$h1,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('f2 lh-title fw6 mb1 mt0 pt3 bt bw1'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(title),
+			_1: {ctor: '[]'}
+		});
+};
 var _eizzilenna$portfolio$Components$paragraph = function (content) {
 	return A2(
 		_elm_lang$html$Html$p,
@@ -8588,36 +8583,33 @@ var _eizzilenna$portfolio$Components$leadParagraph = function (content) {
 			_1: {ctor: '[]'}
 		});
 };
-var _eizzilenna$portfolio$Components$scrollToTop = function (id) {
-	return A2(
-		_elm_lang$html$Html$div,
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('cf'),
-			_1: {ctor: '[]'}
-		},
-		{
-			ctor: '::',
-			_0: A2(
-				_elm_lang$html$Html$a,
-				{
+var _eizzilenna$portfolio$Components$scrollToTop = A2(
+	_elm_lang$html$Html$div,
+	{
+		ctor: '::',
+		_0: _elm_lang$html$Html_Attributes$class('cf'),
+		_1: {ctor: '[]'}
+	},
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$a,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$class('fr lh-copy dim no-underline dark-gray'),
+				_1: {
 					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('fr lh-copy dim no-underline dark-gray'),
-					_1: {
-						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$href(
-							A2(_elm_lang$core$Basics_ops['++'], '#', id)),
-						_1: {ctor: '[]'}
-					}
-				},
-				{
-					ctor: '::',
-					_0: _elm_lang$html$Html$text('^ Back to top'),
+					_0: _elm_lang$html$Html_Attributes$href('#app'),
 					_1: {ctor: '[]'}
-				}),
-			_1: {ctor: '[]'}
-		});
-};
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('^ Back to top'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	});
 var _eizzilenna$portfolio$Components$activeClass = F2(
 	function (path, href) {
 		return _elm_lang$core$Native_Utils.eq(path, href) ? 'underline' : 'no-underline';
@@ -9827,7 +9819,7 @@ var _eizzilenna$portfolio$Pages$notFound = A2(
 	_eizzilenna$portfolio$Components$pageHeader,
 	{
 		ctor: '::',
-		_0: A2(_eizzilenna$portfolio$Components$h1, '404', '404'),
+		_0: _eizzilenna$portfolio$Components$h1('404'),
 		_1: {ctor: '[]'}
 	},
 	{ctor: '[]'});
@@ -9840,7 +9832,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			_eizzilenna$portfolio$Components$pageHeader,
 			{
 				ctor: '::',
-				_0: A2(_eizzilenna$portfolio$Components$h1, 'interiors', 'Interiors'),
+				_0: _eizzilenna$portfolio$Components$h1('Interiors'),
 				_1: {ctor: '[]'}
 			},
 			{
@@ -10156,7 +10148,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 								}),
 							_1: {
 								ctor: '::',
-								_0: _eizzilenna$portfolio$Components$scrollToTop('interiors'),
+								_0: _eizzilenna$portfolio$Components$scrollToTop,
 								_1: {ctor: '[]'}
 							}
 						}
@@ -10174,7 +10166,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			_eizzilenna$portfolio$Components$pageHeader,
 			{
 				ctor: '::',
-				_0: A2(_eizzilenna$portfolio$Components$h1, 'collages', 'Collages'),
+				_0: _eizzilenna$portfolio$Components$h1('Collages'),
 				_1: {ctor: '[]'}
 			},
 			{
@@ -10548,7 +10540,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 											}),
 										_1: {
 											ctor: '::',
-											_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
+											_0: _eizzilenna$portfolio$Components$scrollToTop,
 											_1: {ctor: '[]'}
 										}
 									}
@@ -10569,7 +10561,7 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 			_eizzilenna$portfolio$Components$pageHeader,
 			{
 				ctor: '::',
-				_0: A2(_eizzilenna$portfolio$Components$h1, 'drawings', 'Drawings'),
+				_0: _eizzilenna$portfolio$Components$h1('Drawings'),
 				_1: {ctor: '[]'}
 			},
 			{
@@ -10812,7 +10804,7 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 															_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
 															_1: {
 																ctor: '::',
-																_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
+																_0: _eizzilenna$portfolio$Components$scrollToTop,
 																_1: {ctor: '[]'}
 															}
 														}
@@ -10841,7 +10833,7 @@ var _eizzilenna$portfolio$Pages$about = A2(
 				_eizzilenna$portfolio$Components$pageHeader,
 				{
 					ctor: '::',
-					_0: A2(_eizzilenna$portfolio$Components$h1, 'about', 'About'),
+					_0: _eizzilenna$portfolio$Components$h1('About'),
 					_1: {
 						ctor: '::',
 						_0: A2(
