@@ -10110,7 +10110,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 				ctor: '::',
 				_0: A3(
 					_eizzilenna$portfolio$Components$workGroup,
-					'Desk Area',
+					'Desk',
 					_eizzilenna$portfolio$Components$loremTitle,
 					{
 						ctor: '::',
@@ -10118,7 +10118,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 							_elm_lang$html$Html$div,
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr3-ns'),
 								_1: {ctor: '[]'}
 							},
 							{
@@ -10130,7 +10130,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
+											_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-1.jpg'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -10143,41 +10143,126 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 								_elm_lang$html$Html$div,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns'),
 									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
 									_0: A2(
-										_elm_lang$html$Html$img,
+										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
-												_1: {ctor: '[]'}
-											}
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pr2-ns'),
+											_1: {ctor: '[]'}
 										},
-										{ctor: '[]'}),
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$img,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-2.jpg'),
+														_1: {ctor: '[]'}
+													}
+												},
+												{ctor: '[]'}),
+											_1: {ctor: '[]'}
+										}),
 									_1: {
 										ctor: '::',
 										_0: A2(
-											_elm_lang$html$Html$img,
+											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
-													_1: {ctor: '[]'}
-												}
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pl2-ns'),
+												_1: {ctor: '[]'}
 											},
-											{ctor: '[]'}),
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-3.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}),
 										_1: {ctor: '[]'}
 									}
 								}),
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr2-ns'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-4.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$div,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl2-ns'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$img,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-5.jpg'),
+																_1: {ctor: '[]'}
+															}
+														},
+														{ctor: '[]'}),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}),
+								_1: {ctor: '[]'}
+							}
 						}
 					}),
 				_1: {
