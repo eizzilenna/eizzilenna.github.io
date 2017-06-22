@@ -10444,18 +10444,49 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 									}),
 								_1: {
 									ctor: '::',
-									_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
+									_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
 									_1: {
 										ctor: '::',
-										_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
+										_0: A4(
+											_eizzilenna$portfolio$Components$workGroup,
+											'Grey Wagtail + Blue Bird',
+											'Mixed media on paper',
+											'297 x 210 mm + 170 x 120 mm',
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/bird-collages/grey-wagtail.jpg'),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$div,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: _eizzilenna$portfolio$Components$groupImage('/images/bird-collages/blue-bird.jpg'),
+															_1: {ctor: '[]'}
+														}),
+													_1: {ctor: '[]'}
+												}
+											}),
 										_1: {
 											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
-											_1: {
-												ctor: '::',
-												_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
-												_1: {ctor: '[]'}
-											}
+											_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
+											_1: {ctor: '[]'}
 										}
 									}
 								}
