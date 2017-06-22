@@ -44,16 +44,15 @@ drawings =
         "Pencil on paper"
         "210 x 297 mm"
         "/images/scribbles/untitled-20.jpg"
-    , C.work
-        "Untitled 52"
-        "Pencil and correction tape on paper"
-        "297 x 210 mm"
-        "/images/scribbles/untitled-52.jpg"
-    , C.work
-        "Twombly 10"
-        "Pencil on paper"
-        "245 x 195 mm"
-        "/images/scribbles/twombly-10.jpg"
+    , C.workGroup
+        "Untitled 52 + Twombly 10"
+        "Pencil and correction tape on paper + Pencil on paper"
+        "297 x 210 mm + 245 x 195 mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/scribbles/untitled-52.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/scribbles/twombly-10.jpg" ]
+        ]
     , C.work
         "Untitled 48"
         "Mixed media on paper"
