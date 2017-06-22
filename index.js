@@ -10485,24 +10485,55 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 												_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+													_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
 													_1: {
 														ctor: '::',
-														_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
-														_1: {
-															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'Black Lines', 'Ink on paper', '297 x 210 mm', '/images/lines-and-other-shapes/black-lines.jpg'),
-															_1: {
+														_0: A4(
+															_eizzilenna$portfolio$Components$workGroup,
+															'Tally Marks + Black Lines',
+															'Pen and pencil on paper + Ink on paper',
+															'Each 297 x 210 mm',
+															{
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
+																_0: A2(
+																	_elm_lang$html$Html$div,
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+																		_1: {ctor: '[]'}
+																	},
+																	{
+																		ctor: '::',
+																		_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/tally-marks.jpg'),
+																		_1: {ctor: '[]'}
+																	}),
 																_1: {
 																	ctor: '::',
-																	_0: A4(_eizzilenna$portfolio$Components$work, 'Tally Marks', 'Pen and pencil on paper', '297 x 210 mm', '/images/lines-and-other-shapes/tally-marks.jpg'),
-																	_1: {
-																		ctor: '::',
-																		_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
-																		_1: {ctor: '[]'}
-																	}
+																	_0: A2(
+																		_elm_lang$html$Html$div,
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
+																			_1: {ctor: '[]'}
+																		},
+																		{
+																			ctor: '::',
+																			_0: _eizzilenna$portfolio$Components$groupImage('/images/lines-and-other-shapes/black-lines.jpg'),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {ctor: '[]'}
+																}
+															}),
+														_1: {
+															ctor: '::',
+															_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+															_1: {
+																ctor: '::',
+																_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+																_1: {
+																	ctor: '::',
+																	_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
+																	_1: {ctor: '[]'}
 																}
 															}
 														}
