@@ -138,6 +138,10 @@ image : String -> String -> Html msg
 image title src =
   H.img [ A.class "db mxhi6", A.alt title, A.src src ] []
 
+groupImage : String -> Html msg
+groupImage src =
+  H.img [ A.class "pv2 db w-100", A.src src ] []
+
 work : String -> String -> String -> String -> Html msg
 work title media dimensions src =
   H.article [ A.class "cf pv5" ]

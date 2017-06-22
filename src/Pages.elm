@@ -127,21 +127,21 @@ collages =
     , C.workGroup
         "Postcards"
         "Mixed media on card"
-        "each 105 x 148 mm"
+        "Each 105 x 148 mm"
         [ H.div [ A.class "fl w-100 w-third-ns pr2-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-2.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-3.jpg" ] []
+            [ C.groupImage "/images/postcards/untitled-1.jpg"
+            , C.groupImage "/images/postcards/untitled-2.jpg"
+            , C.groupImage "/images/postcards/untitled-3.jpg"
             ]
         , H.div [ A.class "fl w-100 w-third-ns pl1-ns pr1-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-4.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-5.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-6.jpg" ] []
+            [ C.groupImage "/images/postcards/untitled-4.jpg"
+            , C.groupImage "/images/postcards/untitled-5.jpg"
+            , C.groupImage "/images/postcards/untitled-6.jpg"
             ]
         , H.div [ A.class "fl w-100 w-third-ns pl2-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-7.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-8.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-9.jpg" ] []
+            [ C.groupImage "/images/postcards/untitled-7.jpg"
+            , C.groupImage "/images/postcards/untitled-8.jpg"
+            , C.groupImage "/images/postcards/untitled-9.jpg"
             ]
         ]
     , C.workHeader "Lines and Other Shapes" C.loremTitle C.loremParagraph
@@ -280,11 +280,11 @@ space for a set of the owners collections, including glassware by Danish design
 company Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.
 """)
         [ H.div [ A.class "fl w-100 w-40-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
+            [ C.groupImage "/images/hallway/hallway-1.jpg"
+            , C.groupImage "/images/hallway/hallway-2.jpg"
             ]
         , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
+            [ C.groupImage "/images/hallway/hallway-3.jpg"
             ]
         ]
     , C.interior
@@ -295,12 +295,12 @@ Ercol drop leaf dining table, which is bathed in natural light and surrounded
 by greenery.
 """)
         [ H.div [ A.class "fl w-100 w-50-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
+            [ C.groupImage "/images/dining-table/dining-table-1.jpg"
+            , C.groupImage "/images/dining-table/dining-table-2.jpg"
             ]
         , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
+            [ C.groupImage "/images/dining-table/dining-table-3.jpg"
+            , C.groupImage "/images/dining-table/dining-table-4.jpg"
             ]
         ]
     , C.interior
@@ -312,16 +312,16 @@ eclectic array of objects, including a pair of Staffordshire ‘Wally dugs’ fo
 in a market in Greenwich and vintage glass pieces bought in Sweden and Finland.
 """)
         [ H.div [ A.class "fl w-100 w-40-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-1.jpg" ] []
+            [ C.groupImage "/images/sitting-area/sitting-area-1.jpg"
             ]
         , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-2.jpg" ] []
+            [ C.groupImage "/images/sitting-area/sitting-area-2.jpg"
             ]
         , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-3.jpg" ] []
+            [ C.groupImage "/images/sitting-area/sitting-area-3.jpg"
             ]
         , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-4.jpg" ] []
+            [ C.groupImage "/images/sitting-area/sitting-area-4.jpg"
             ]
         ]
     , C.interior
@@ -333,22 +333,22 @@ typewriter and several pot plants provide vibrant pockets of colour against the
 light grey back wall.
 """)
         [ H.div [ A.class "fl w-100 w-40-ns pr3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-1.jpg" ] []
+            [ C.groupImage "/images/workspace/workspace-1.jpg"
             ]
         , H.div [ A.class "fl w-100 w-60-ns" ]
             [ H.div [ A.class "fl w-100 w-60-ns pr2-ns" ]
-                [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-2.jpg" ] []
+                [ C.groupImage "/images/workspace/workspace-2.jpg"
                 ]
             , H.div [ A.class "fl w-100 w-40-ns pl2-ns" ]
-                [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-3.jpg" ] []
+                [ C.groupImage "/images/workspace/workspace-3.jpg"
                 ]
             ]
         , H.div [ A.class "fl w-100 w-60-ns" ]
             [ H.div [ A.class "fl w-100 w-40-ns pr2-ns" ]
-                [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-4.jpg" ] []
+                [ C.groupImage "/images/workspace/workspace-4.jpg"
                 ]
             , H.div [ A.class "fl w-100 w-60-ns pl2-ns" ]
-                [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-5.jpg" ] []
+                [ C.groupImage "/images/workspace/workspace-5.jpg"
                 ]
             ]
         ]
@@ -359,11 +359,11 @@ The large bookshelf acts as both a storage/display area for a collection of
 books and other objects, as well as a room divider between the dining area and the workspace.
 """)
         [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
+            [ C.groupImage "/images/bookshelf/bookshelf-1.jpg"
             ]
         , H.div [ A.class "fl w-100 w-50-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
+            [ C.groupImage "/images/bookshelf/bookshelf-2.jpg"
+            , C.groupImage "/images/bookshelf/bookshelf-3.jpg"
             ]
         ]
     , C.scrollToTop "interiors"
