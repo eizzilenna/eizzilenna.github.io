@@ -120,16 +120,6 @@ pageHeader id title content =
     , H.div [ A.class "fn fl-ns w-50-ns" ] content
     ]
 
-workHeader : String -> String -> String -> Html msg
-workHeader title subTitle content =
-  H.article [ A.class "cf pv4" ]
-    [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
-        [ H.h2 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
-        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text subTitle ]
-        ]
-    , H.div [ A.class "fn fl-ns w-50-ns" ] [ leadParagraph content ]
-    ]
-
 
 
 -- Works

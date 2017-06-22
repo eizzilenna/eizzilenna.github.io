@@ -39,7 +39,6 @@ drawings =
   H.div []
     [ C.pageHeader "drawings" "Drawings"
         [ C.leadParagraph C.loremParagraph ]
-    , C.workHeader "Scribbles" C.loremTitle C.loremParagraph
     , C.work
         "Untitled 20"
         "Pencil on paper"
@@ -60,7 +59,6 @@ drawings =
         "Mixed media on paper"
         "212 x 280 mm"
         "/images/scribbles/untitled-48.jpg"
-    , C.workHeader "Drawings" C.loremTitle C.loremParagraph
     , C.work
         "Self Portrait"
         "Pencil on paper"
@@ -130,7 +128,6 @@ collages =
             , C.groupImage "/images/postcards/untitled-9.jpg"
             ]
         ]
-    , C.workHeader "Lines and Other Shapes" C.loremTitle C.loremParagraph
     , C.work
         "Two Blocks"
         "Pencil and ink on paper"
@@ -161,7 +158,6 @@ collages =
         "Pen and pencil on paper"
         "297 x 210 mm"
         "/images/lines-and-other-shapes/tally-marks.jpg"
-    , C.workHeader "Bird Collages" C.loremTitle C.loremParagraph
     , C.work
         "Grey Wagtail"
         "Mixed media on paper"
@@ -177,7 +173,6 @@ collages =
         "Mixed media on paper"
         "170 x 120 mm"
         "/images/bird-collages/blue-bird.jpg"
-    , C.workHeader "Magasin Collage" C.loremTitle C.loremParagraph
     , C.work
         "Design"
         "Mixed media on paper"
@@ -198,7 +193,6 @@ collages =
         "Mixed media on paper"
         "297 x 210mm"
         "/images/magasin-collage/milton.jpg"
-    , C.workHeader "Dot Series" C.loremTitle C.loremParagraph
     , C.work
         "M"
         "Mixed media on paper"
