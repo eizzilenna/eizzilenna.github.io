@@ -30,13 +30,15 @@ about : Html msg
 about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "https://placehold.it/960x240"
-    , C.pageHeader "about" "About" C.loremTitle (Just C.loremParagraph)
+    , C.pageHeader "about" "About" C.loremTitle
+        [ C.leadParagraph C.loremParagraph ]
     ]
 
 drawings : Html msg
 drawings =
   H.div []
-    [ C.pageHeader "drawings" "Drawings" C.loremTitle (Just C.loremParagraph)
+    [ C.pageHeader "drawings" "Drawings" C.loremTitle
+        [ C.leadParagraph C.loremParagraph ]
     , C.workHeader "Scribbles" C.loremTitle C.loremParagraph
     , C.work
         "Untitled 20"
@@ -120,7 +122,8 @@ drawings =
 collages : Html msg
 collages =
   H.div []
-    [ C.pageHeader "collages" "Collages" C.loremTitle (Just C.loremParagraph)
+    [ C.pageHeader "collages" "Collages" C.loremTitle
+        [ C.leadParagraph C.loremParagraph ]
     , C.workHeader "Postcards" C.loremTitle C.loremParagraph
     , C.work
         "Untitled 1"
@@ -277,7 +280,10 @@ collages =
 interiors : Html msg
 interiors =
   H.div []
-    [ C.pageHeader "interiors" "Interiors" C.loremTitle (Just C.loremParagraph)
+    [ C.pageHeader "interiors" "Interiors" C.loremTitle
+        [ C.leadParagraph C.loremParagraph
+        , C.paragraph C.loremParagraph
+        ]
     , C.workGroup
       "Sitting Room"
       C.loremTitle
@@ -355,4 +361,4 @@ interiors =
 
 notFound : Html msg
 notFound =
-  C.pageHeader "404" "404" "Nothing to see here." Nothing
+  C.pageHeader "404" "404" "Nothing to see here." []

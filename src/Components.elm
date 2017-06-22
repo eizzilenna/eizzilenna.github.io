@@ -111,14 +111,14 @@ paragraph : String -> Html msg
 paragraph content =
   H.p [ A.class "f5 lh-copy measure" ] [ H.text content ]
 
-pageHeader : String -> String -> String -> Maybe String -> Html msg
+pageHeader : String -> String -> String -> List (Html msg) -> Html msg
 pageHeader id title subTitle content =
   H.article [ A.class "cf pb5 pt3" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text subTitle ]
         ]
-    , H.div [ A.class "fn fl-ns w-50-ns" ] [ Maybe.map leadParagraph content |> Maybe.withDefault (H.text "") ]
+    , H.div [ A.class "fn fl-ns w-50-ns" ] content
     ]
 
 workHeader : String -> String -> String -> Html msg
