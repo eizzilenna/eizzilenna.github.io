@@ -10254,74 +10254,50 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 				}),
 			_1: {
 				ctor: '::',
-				_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
+				_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
 				_1: {
 					ctor: '::',
-					_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+					_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
 					_1: {
 						ctor: '::',
-						_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+						_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
 						_1: {
 							ctor: '::',
-							_0: A4(_eizzilenna$portfolio$Components$work, 'Black Lines', 'Ink on paper', '297 x 210 mm', '/images/lines-and-other-shapes/black-lines.jpg'),
+							_0: A4(_eizzilenna$portfolio$Components$work, 'Design', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/design.jpg'),
 							_1: {
 								ctor: '::',
-								_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
+								_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Can', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/yellow-can.jpg'),
 								_1: {
 									ctor: '::',
-									_0: A4(_eizzilenna$portfolio$Components$work, 'Tally Marks', 'Pen and pencil on paper', '297 x 210 mm', '/images/lines-and-other-shapes/tally-marks.jpg'),
+									_0: A4(_eizzilenna$portfolio$Components$work, 'Guilt Tripping, Nice World', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/guilt-tripping-nice-world.jpg'),
 									_1: {
 										ctor: '::',
-										_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
+										_0: A4(_eizzilenna$portfolio$Components$work, 'Milton', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/milton.jpg'),
 										_1: {
 											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
+											_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
 											_1: {
 												ctor: '::',
-												_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
+												_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A4(_eizzilenna$portfolio$Components$work, 'Design', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/design.jpg'),
+													_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
 													_1: {
 														ctor: '::',
-														_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Can', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/yellow-can.jpg'),
+														_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
 														_1: {
 															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'Guilt Tripping, Nice World', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/guilt-tripping-nice-world.jpg'),
+															_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
 															_1: {
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'Milton', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/milton.jpg'),
+																_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
 																_1: {
 																	ctor: '::',
-																	_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
+																	_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
 																	_1: {
 																		ctor: '::',
-																		_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
-																		_1: {
-																			ctor: '::',
-																			_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
-																			_1: {
-																				ctor: '::',
-																				_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
-																				_1: {
-																					ctor: '::',
-																					_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
-																					_1: {
-																						ctor: '::',
-																						_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
-																						_1: {
-																							ctor: '::',
-																							_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
-																							_1: {
-																								ctor: '::',
-																								_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
-																								_1: {ctor: '[]'}
-																							}
-																						}
-																					}
-																				}
-																			}
-																		}
+																		_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
+																		_1: {ctor: '[]'}
 																	}
 																}
 															}
@@ -10506,8 +10482,32 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 											_0: A4(_eizzilenna$portfolio$Components$work, 'Eduardo Marquina', 'Pencil on paper', '570 x 760 mm', '/images/drawings/eduardo-marquina.jpg'),
 											_1: {
 												ctor: '::',
-												_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
-												_1: {ctor: '[]'}
+												_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
+												_1: {
+													ctor: '::',
+													_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+													_1: {
+														ctor: '::',
+														_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+														_1: {
+															ctor: '::',
+															_0: A4(_eizzilenna$portfolio$Components$work, 'Black Lines', 'Ink on paper', '297 x 210 mm', '/images/lines-and-other-shapes/black-lines.jpg'),
+															_1: {
+																ctor: '::',
+																_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
+																_1: {
+																	ctor: '::',
+																	_0: A4(_eizzilenna$portfolio$Components$work, 'Tally Marks', 'Pen and pencil on paper', '297 x 210 mm', '/images/lines-and-other-shapes/tally-marks.jpg'),
+																	_1: {
+																		ctor: '::',
+																		_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}
+												}
 											}
 										}
 									}
