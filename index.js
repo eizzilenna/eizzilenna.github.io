@@ -8987,25 +8987,25 @@ var _eizzilenna$portfolio$Components$nav = F2(
 								_0: A4(
 									_eizzilenna$portfolio$Components$navLink,
 									navigate,
-									'Drawings',
-									'/drawings',
-									A2(_eizzilenna$portfolio$Components$activeClass, path, '/drawings')),
+									'Interiors',
+									'/interiors',
+									A2(_eizzilenna$portfolio$Components$activeClass, path, '/interiors')),
 								_1: {
 									ctor: '::',
 									_0: A4(
 										_eizzilenna$portfolio$Components$navLink,
 										navigate,
-										'Collages',
-										'/collages',
-										A2(_eizzilenna$portfolio$Components$activeClass, path, '/collages')),
+										'Drawings',
+										'/drawings',
+										A2(_eizzilenna$portfolio$Components$activeClass, path, '/drawings')),
 									_1: {
 										ctor: '::',
 										_0: A4(
 											_eizzilenna$portfolio$Components$navLinkLast,
 											navigate,
-											'Interiors',
-											'/interiors',
-											A2(_eizzilenna$portfolio$Components$activeClass, path, '/interiors')),
+											'Collages',
+											'/collages',
+											A2(_eizzilenna$portfolio$Components$activeClass, path, '/collages')),
 										_1: {ctor: '[]'}
 									}
 								}
