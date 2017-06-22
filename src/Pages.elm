@@ -299,6 +299,37 @@ pieces complement each other, creating a retro yet modern feel.
 """
         ]
     , C.workGroup
+        "Hallway"
+        (C.paragraph """
+A Componibili storage unit by Kartell and a small teak drawer unit provide
+space for a set of the owners collections, including glassware by Danish design
+company Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.
+""")
+        [ H.div [ A.class "fl w-100 w-40-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
+            ]
+        ]
+    , C.workGroup
+        "Dining Area"
+        (C.paragraph """
+A Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an
+Ercol drop leaf dining table, which is bathed in natural light and surrounded
+by greenery.
+""")
+        [ H.div [ A.class "fl w-100 w-50-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
+            ]
+        ]
+    , C.workGroup
         "Sitting Area"
         (C.paragraph """
 The colours in the painting by Finnish artist Henry Wright are mirrored in the
@@ -317,20 +348,6 @@ in a market in Greenwich and vintage glass pieces bought in Sweden and Finland.
             ]
         , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
             [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-4.jpg" ] []
-            ]
-        ]
-    , C.workGroup
-        "Bookshelf"
-        (C.paragraph """
-The large bookshelf acts as both a storage/display area for a collection of
-books and other objects, as well as a room divider between the dining area and the workspace.
-""")
-        [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
-            ]
-        , H.div [ A.class "fl w-100 w-50-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
             ]
         ]
     , C.workGroup
@@ -362,34 +379,17 @@ light grey back wall.
             ]
         ]
     , C.workGroup
-        "Hallway"
+        "Bookshelf"
         (C.paragraph """
-The Componibili storage unit by Kartell and a small teak drawer unit provide
-space for another set of the owners collections, including glassware by Danish
-design company Normann Copenhagen and Alvar Aalto for Iittala.
+The large bookshelf acts as both a storage/display area for a collection of
+books and other objects, as well as a room divider between the dining area and the workspace.
 """)
-        [ H.div [ A.class "fl w-100 w-40-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
+        [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
             ]
-        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
-            ]
-        ]
-    , C.workGroup
-        "Dining Area"
-        (C.paragraph """
-A Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an
-Ercol drop leaf dining table, which is bathed in natural light and surrounded
-by greenery.
-""")
-        [ H.div [ A.class "fl w-100 w-50-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
-            ]
-        , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
+        , H.div [ A.class "fl w-100 w-50-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
             ]
         ]
     , C.scrollToTop "interiors"
