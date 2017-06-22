@@ -202,20 +202,19 @@ collages =
             ]
         ]
     , C.work
-        "Grey Wagtail"
-        "Mixed media on paper"
-        "297 x 210 mm"
-        "/images/bird-collages/grey-wagtail.jpg"
-    , C.work
         "Yellow Bird"
         "Mixed media on paper"
         "170 x 170 mm"
         "/images/bird-collages/yellow-bird.jpg"
-    , C.work
-        "Blue Bird"
+    , C.workGroup
+        "Grey Wagtail + Blue Bird"
         "Mixed media on paper"
-        "170 x 120 mm"
-        "/images/bird-collages/blue-bird.jpg"
+        "297 x 210 mm + 170 x 120 mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/bird-collages/grey-wagtail.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/bird-collages/blue-bird.jpg" ]
+        ]
     , C.scrollToTop "collages"
     ]
 
