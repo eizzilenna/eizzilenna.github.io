@@ -8260,7 +8260,7 @@ var _elm_lang$html$Html_Events$Options = F2(
 		return {stopPropagation: a, preventDefault: b};
 	});
 
-var _eizzilenna$portfolio$Components$workGroup = F3(
+var _eizzilenna$portfolio$Components$interior = F3(
 	function (title, description, children) {
 		return A2(
 			_elm_lang$html$Html$article,
@@ -8315,6 +8315,98 @@ var _eizzilenna$portfolio$Components$workGroup = F3(
 				}
 			});
 	});
+var _eizzilenna$portfolio$Components$workGroup = F4(
+	function (title, media, dimensions, children) {
+		return A2(
+			_elm_lang$html$Html$article,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$class('cf pv5'),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('cf'),
+						_1: {ctor: '[]'}
+					},
+					children),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$header,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('fn fl-ns pr4-ns'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$h2,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('f3 lh-title fw6 mb1 mt0 pt3'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text(title),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$h3,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('f5 fw4 mid-gray mb1 mt0 lh-title'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html$text(media),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$h4,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('f6 mt0 fw4 tracked gray'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text(dimensions),
+											_1: {ctor: '[]'}
+										}),
+									_1: {ctor: '[]'}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			});
+	});
+var _eizzilenna$portfolio$Components$groupImage = function (src) {
+	return A2(
+		_elm_lang$html$Html$img,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$src(src),
+				_1: {ctor: '[]'}
+			}
+		},
+		{ctor: '[]'});
+};
 var _eizzilenna$portfolio$Components$image = F2(
 	function (title, src) {
 		return A2(
@@ -9830,7 +9922,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 		_1: {
 			ctor: '::',
 			_0: A3(
-				_eizzilenna$portfolio$Components$workGroup,
+				_eizzilenna$portfolio$Components$interior,
 				'Hallway',
 				_eizzilenna$portfolio$Components$paragraph('\nA Componibili storage unit by Kartell and a small teak drawer unit provide\nspace for a set of the owners collections, including glassware by Danish design\ncompany Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.\n'),
 				{
@@ -9844,32 +9936,10 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 						},
 						{
 							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$img,
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-									_1: {
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-1.jpg'),
-										_1: {ctor: '[]'}
-									}
-								},
-								{ctor: '[]'}),
+							_0: _eizzilenna$portfolio$Components$groupImage('/images/hallway/hallway-1.jpg'),
 							_1: {
 								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$img,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-2.jpg'),
-											_1: {ctor: '[]'}
-										}
-									},
-									{ctor: '[]'}),
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/hallway/hallway-2.jpg'),
 								_1: {ctor: '[]'}
 							}
 						}),
@@ -9884,18 +9954,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 							},
 							{
 								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$img,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-3.jpg'),
-											_1: {ctor: '[]'}
-										}
-									},
-									{ctor: '[]'}),
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/hallway/hallway-3.jpg'),
 								_1: {ctor: '[]'}
 							}),
 						_1: {ctor: '[]'}
@@ -9904,7 +9963,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			_1: {
 				ctor: '::',
 				_0: A3(
-					_eizzilenna$portfolio$Components$workGroup,
+					_eizzilenna$portfolio$Components$interior,
 					'Dining Area',
 					_eizzilenna$portfolio$Components$paragraph('\nA Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an\nErcol drop leaf dining table, which is bathed in natural light and surrounded\nby greenery.\n'),
 					{
@@ -9918,32 +9977,10 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 							},
 							{
 								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$img,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-1.jpg'),
-											_1: {ctor: '[]'}
-										}
-									},
-									{ctor: '[]'}),
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/dining-table/dining-table-1.jpg'),
 								_1: {
 									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$img,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-2.jpg'),
-												_1: {ctor: '[]'}
-											}
-										},
-										{ctor: '[]'}),
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/dining-table/dining-table-2.jpg'),
 									_1: {ctor: '[]'}
 								}
 							}),
@@ -9958,32 +9995,10 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 								},
 								{
 									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$img,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-3.jpg'),
-												_1: {ctor: '[]'}
-											}
-										},
-										{ctor: '[]'}),
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/dining-table/dining-table-3.jpg'),
 									_1: {
 										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$img,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-4.jpg'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{ctor: '[]'}),
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/dining-table/dining-table-4.jpg'),
 										_1: {ctor: '[]'}
 									}
 								}),
@@ -9993,7 +10008,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 				_1: {
 					ctor: '::',
 					_0: A3(
-						_eizzilenna$portfolio$Components$workGroup,
+						_eizzilenna$portfolio$Components$interior,
 						'Sitting Area',
 						_eizzilenna$portfolio$Components$paragraph('\nThe colours in the painting by Finnish artist Henry Wright are mirrored in the\ncushions and Marimekko fabric used on the sofa.  A vintage bookshelf houses an\neclectic array of objects, including a pair of Staffordshire ‘Wally dugs’ found\nin a market in Greenwich and vintage glass pieces bought in Sweden and Finland.\n'),
 						{
@@ -10007,18 +10022,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 								},
 								{
 									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$img,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-1.jpg'),
-												_1: {ctor: '[]'}
-											}
-										},
-										{ctor: '[]'}),
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/sitting-area/sitting-area-1.jpg'),
 									_1: {ctor: '[]'}
 								}),
 							_1: {
@@ -10032,18 +10036,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 									},
 									{
 										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$img,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-2.jpg'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{ctor: '[]'}),
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/sitting-area/sitting-area-2.jpg'),
 										_1: {ctor: '[]'}
 									}),
 								_1: {
@@ -10057,18 +10050,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										},
 										{
 											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$img,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-3.jpg'),
-														_1: {ctor: '[]'}
-													}
-												},
-												{ctor: '[]'}),
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/sitting-area/sitting-area-3.jpg'),
 											_1: {ctor: '[]'}
 										}),
 									_1: {
@@ -10082,18 +10064,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											},
 											{
 												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$img,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-4.jpg'),
-															_1: {ctor: '[]'}
-														}
-													},
-													{ctor: '[]'}),
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/sitting-area/sitting-area-4.jpg'),
 												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
@@ -10104,7 +10075,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 					_1: {
 						ctor: '::',
 						_0: A3(
-							_eizzilenna$portfolio$Components$workGroup,
+							_eizzilenna$portfolio$Components$interior,
 							'Workspace',
 							_eizzilenna$portfolio$Components$paragraph('\nThe workspace houses a simple white desk that sits neatly within a recess at\nthe end of the living space. Brightly coloured objects, including a vintage\ntypewriter and several pot plants provide vibrant pockets of colour against the\nlight grey back wall.\n'),
 							{
@@ -10118,18 +10089,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 									},
 									{
 										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$img,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-1.jpg'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{ctor: '[]'}),
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/workspace/workspace-1.jpg'),
 										_1: {ctor: '[]'}
 									}),
 								_1: {
@@ -10152,18 +10112,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												},
 												{
 													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$img,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-2.jpg'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{ctor: '[]'}),
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/workspace/workspace-2.jpg'),
 													_1: {ctor: '[]'}
 												}),
 											_1: {
@@ -10177,18 +10126,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													},
 													{
 														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$img,
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-3.jpg'),
-																	_1: {ctor: '[]'}
-																}
-															},
-															{ctor: '[]'}),
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/workspace/workspace-3.jpg'),
 														_1: {ctor: '[]'}
 													}),
 												_1: {ctor: '[]'}
@@ -10214,18 +10152,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													},
 													{
 														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$img,
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-4.jpg'),
-																	_1: {ctor: '[]'}
-																}
-															},
-															{ctor: '[]'}),
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/workspace/workspace-4.jpg'),
 														_1: {ctor: '[]'}
 													}),
 												_1: {
@@ -10239,18 +10166,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														},
 														{
 															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$img,
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-																	_1: {
-																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-5.jpg'),
-																		_1: {ctor: '[]'}
-																	}
-																},
-																{ctor: '[]'}),
+															_0: _eizzilenna$portfolio$Components$groupImage('/images/workspace/workspace-5.jpg'),
 															_1: {ctor: '[]'}
 														}),
 													_1: {ctor: '[]'}
@@ -10263,7 +10179,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 						_1: {
 							ctor: '::',
 							_0: A3(
-								_eizzilenna$portfolio$Components$workGroup,
+								_eizzilenna$portfolio$Components$interior,
 								'Bookshelf',
 								_eizzilenna$portfolio$Components$paragraph('\nThe large bookshelf acts as both a storage/display area for a collection of\nbooks and other objects, as well as a room divider between the dining area and the workspace.\n'),
 								{
@@ -10277,18 +10193,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										},
 										{
 											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$img,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-1.jpg'),
-														_1: {ctor: '[]'}
-													}
-												},
-												{ctor: '[]'}),
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/bookshelf/bookshelf-1.jpg'),
 											_1: {ctor: '[]'}
 										}),
 									_1: {
@@ -10302,32 +10207,10 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											},
 											{
 												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$img,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-2.jpg'),
-															_1: {ctor: '[]'}
-														}
-													},
-													{ctor: '[]'}),
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/bookshelf/bookshelf-2.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$img,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-3.jpg'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{ctor: '[]'}),
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/bookshelf/bookshelf-3.jpg'),
 													_1: {ctor: '[]'}
 												}
 											}),
@@ -10361,119 +10244,157 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			}),
 		_1: {
 			ctor: '::',
-			_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Postcards', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
-			_1: {
-				ctor: '::',
-				_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 1', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-1.jpg'),
-				_1: {
+			_0: A4(
+				_eizzilenna$portfolio$Components$workGroup,
+				'Postcards',
+				'Mixed media on card',
+				'Each 105 x 148 mm',
+				{
 					ctor: '::',
-					_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 2', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-2.jpg'),
-					_1: {
-						ctor: '::',
-						_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 3', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-3.jpg'),
-						_1: {
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
 							ctor: '::',
-							_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 4', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-4.jpg'),
+							_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pr2-ns'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-1.jpg'),
 							_1: {
 								ctor: '::',
-								_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 5', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-5.jpg'),
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-2.jpg'),
 								_1: {
 									ctor: '::',
-									_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 6', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-6.jpg'),
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-3.jpg'),
+									_1: {ctor: '[]'}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl1-ns pr1-ns'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-4.jpg'),
+								_1: {
+									ctor: '::',
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-5.jpg'),
 									_1: {
 										ctor: '::',
-										_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 7', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-7.jpg'),
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-6.jpg'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl2-ns'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-7.jpg'),
+									_1: {
+										ctor: '::',
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-8.jpg'),
 										_1: {
 											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 8', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-8.jpg'),
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-9.jpg'),
+											_1: {ctor: '[]'}
+										}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Lines and Other Shapes', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
+				_1: {
+					ctor: '::',
+					_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
+					_1: {
+						ctor: '::',
+						_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+						_1: {
+							ctor: '::',
+							_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+							_1: {
+								ctor: '::',
+								_0: A4(_eizzilenna$portfolio$Components$work, 'Black Lines', 'Ink on paper', '297 x 210 mm', '/images/lines-and-other-shapes/black-lines.jpg'),
+								_1: {
+									ctor: '::',
+									_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
+									_1: {
+										ctor: '::',
+										_0: A4(_eizzilenna$portfolio$Components$work, 'Tally Marks', 'Pen and pencil on paper', '297 x 210 mm', '/images/lines-and-other-shapes/tally-marks.jpg'),
+										_1: {
+											ctor: '::',
+											_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Bird Collages', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
 											_1: {
 												ctor: '::',
-												_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 9', 'Mixed media on card', '105 x 148 mm', '/images/postcards/untitled-9.jpg'),
+												_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Lines and Other Shapes', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
+													_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
 													_1: {
 														ctor: '::',
-														_0: A4(_eizzilenna$portfolio$Components$work, 'Two Blocks', 'Pencil and ink on paper', '210 x 297 mm', '/images/lines-and-other-shapes/two-blocks.jpg'),
+														_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
 														_1: {
 															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
+															_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Magasin Collage', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
 															_1: {
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'Black, Grey and Orange', 'Felt tip pen on paper', '210 x 297 mm', '/images/lines-and-other-shapes/black-grey-and-orange.jpg'),
+																_0: A4(_eizzilenna$portfolio$Components$work, 'Design', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/design.jpg'),
 																_1: {
 																	ctor: '::',
-																	_0: A4(_eizzilenna$portfolio$Components$work, 'Black Lines', 'Ink on paper', '297 x 210 mm', '/images/lines-and-other-shapes/black-lines.jpg'),
+																	_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Can', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/yellow-can.jpg'),
 																	_1: {
 																		ctor: '::',
-																		_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 29', 'Mixed media on paper', '290 x 385 mm', '/images/lines-and-other-shapes/untitled-29.jpg'),
+																		_0: A4(_eizzilenna$portfolio$Components$work, 'Guilt Tripping, Nice World', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/guilt-tripping-nice-world.jpg'),
 																		_1: {
 																			ctor: '::',
-																			_0: A4(_eizzilenna$portfolio$Components$work, 'Tally Marks', 'Pen and pencil on paper', '297 x 210 mm', '/images/lines-and-other-shapes/tally-marks.jpg'),
+																			_0: A4(_eizzilenna$portfolio$Components$work, 'Milton', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/milton.jpg'),
 																			_1: {
 																				ctor: '::',
-																				_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Bird Collages', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
+																				_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Dot Series', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
 																				_1: {
 																					ctor: '::',
-																					_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
+																					_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
 																					_1: {
 																						ctor: '::',
-																						_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
+																						_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
 																						_1: {
 																							ctor: '::',
-																							_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
+																							_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
 																							_1: {
 																								ctor: '::',
-																								_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Magasin Collage', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
+																								_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
 																								_1: {
 																									ctor: '::',
-																									_0: A4(_eizzilenna$portfolio$Components$work, 'Design', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/design.jpg'),
+																									_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
 																									_1: {
 																										ctor: '::',
-																										_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Can', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/yellow-can.jpg'),
+																										_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
 																										_1: {
 																											ctor: '::',
-																											_0: A4(_eizzilenna$portfolio$Components$work, 'Guilt Tripping, Nice World', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/guilt-tripping-nice-world.jpg'),
+																											_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
 																											_1: {
 																												ctor: '::',
-																												_0: A4(_eizzilenna$portfolio$Components$work, 'Milton', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/milton.jpg'),
-																												_1: {
-																													ctor: '::',
-																													_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Dot Series', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
-																													_1: {
-																														ctor: '::',
-																														_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
-																														_1: {
-																															ctor: '::',
-																															_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
-																															_1: {
-																																ctor: '::',
-																																_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
-																																_1: {
-																																	ctor: '::',
-																																	_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
-																																	_1: {
-																																		ctor: '::',
-																																		_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
-																																		_1: {
-																																			ctor: '::',
-																																			_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
-																																			_1: {
-																																				ctor: '::',
-																																				_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
-																																				_1: {
-																																					ctor: '::',
-																																					_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
-																																					_1: {ctor: '[]'}
-																																				}
-																																			}
-																																		}
-																																	}
-																																}
-																															}
-																														}
-																													}
-																												}
+																												_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
+																												_1: {ctor: '[]'}
 																											}
 																										}
 																									}
@@ -10538,44 +10459,144 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 									_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait', 'Pencil on paper', '570 x 760 mm', '/images/drawings/self-portrait.jpg'),
 									_1: {
 										ctor: '::',
-										_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait Rules', 'Typewriter on paper', '297 x 210 mm', '/images/drawings/self-portrait-rules.jpg'),
-										_1: {
-											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait Measurements 1', 'Typewriter on paper', '297 x 210 mm', '/images/drawings/self-portrait-measurements-1.jpg'),
-											_1: {
+										_0: A4(
+											_eizzilenna$portfolio$Components$workGroup,
+											'Self Portrait Rules + Measurements',
+											'Typewriter on paper',
+											'Each 297 x 210 mm',
+											{
 												ctor: '::',
-												_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait Measurements 2', 'Typewriter on paper', '297 x 210 mm', '/images/drawings/self-portrait-measurements-2.jpg'),
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pr2-ns'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-rules.jpg'),
+														_1: {ctor: '[]'}
+													}),
 												_1: {
 													ctor: '::',
-													_0: A4(_eizzilenna$portfolio$Components$work, 'Self Portrait Measurements 3', 'Typewriter on paper', '297 x 210 mm', '/images/drawings/self-portrait-measurements-3.jpg'),
+													_0: A2(
+														_elm_lang$html$Html$div,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl1-ns pr1-ns'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-1.jpg'),
+															_1: {ctor: '[]'}
+														}),
 													_1: {
 														ctor: '::',
-														_0: A4(_eizzilenna$portfolio$Components$work, 'Black I', 'Pencil on paper', '760 x 570 mm', '/images/drawings/black-i.jpg'),
+														_0: A2(
+															_elm_lang$html$Html$div,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl1-ns pr1-ns'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-2.jpg'),
+																_1: {ctor: '[]'}
+															}),
 														_1: {
 															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'Black II', 'Etching', '740 x 525 mm', '/images/drawings/black-ii.jpg'),
-															_1: {
+															_0: A2(
+																_elm_lang$html$Html$div,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-25-ns pl2-ns'),
+																	_1: {ctor: '[]'}
+																},
+																{
+																	ctor: '::',
+																	_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/self-portrait-measurements-3.jpg'),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}),
+										_1: {
+											ctor: '::',
+											_0: A4(
+												_eizzilenna$portfolio$Components$workGroup,
+												'Black I + II',
+												'Pencil on paper + Etching',
+												'760 x 570 mm + 740 x 525 mm',
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$div,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-i.jpg'),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$div,
+															{
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'I Went Too', 'Pencil on paper', '570 x 760 mm', '/images/drawings/i-went-too.jpg'),
+																_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/black-ii.jpg'),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A4(
+													_eizzilenna$portfolio$Components$workGroup,
+													'I Went Too + After I Went Too',
+													'Pencil on paper',
+													'Each 570 x 760 mm',
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$div,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('w-100 w-70-ns'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/i-went-too.jpg'),
 																_1: {
 																	ctor: '::',
-																	_0: A4(_eizzilenna$portfolio$Components$work, 'After I Went Too', 'Pencil on paper', '570 x 760 mm', '/images/drawings/after-i-went-too.jpg'),
-																	_1: {
-																		ctor: '::',
-																		_0: A4(_eizzilenna$portfolio$Components$work, 'Pencil on Paper', 'Pencil on paper', '760 x 570 mm', '/images/drawings/pencil-on-paper.jpg'),
-																		_1: {
-																			ctor: '::',
-																			_0: A4(_eizzilenna$portfolio$Components$work, 'Eduardo Marquina', 'Pencil on paper', '570 x 760 mm', '/images/drawings/eduardo-marquina.jpg'),
-																			_1: {
-																				ctor: '::',
-																				_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
-																				_1: {ctor: '[]'}
-																			}
-																		}
-																	}
+																	_0: _eizzilenna$portfolio$Components$groupImage('/images/drawings/after-i-went-too.jpg'),
+																	_1: {ctor: '[]'}
 																}
-															}
-														}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A4(_eizzilenna$portfolio$Components$work, 'Eduardo Marquina', 'Pencil on paper', '570 x 760 mm', '/images/drawings/eduardo-marquina.jpg'),
+													_1: {
+														ctor: '::',
+														_0: _eizzilenna$portfolio$Components$scrollToTop('drawings'),
+														_1: {ctor: '[]'}
 													}
 												}
 											}
