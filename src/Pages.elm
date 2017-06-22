@@ -106,30 +106,29 @@ drawings =
         "210 x 297 mm"
         "/images/lines-and-other-shapes/two-blocks.jpg"
     , C.work
-        "Blue Lines"
-        "Ink on paper"
-        "100 x 100 mm"
-        "/images/lines-and-other-shapes/blue-lines.jpg"
+        "Untitled 29"
+        "Mixed media on paper"
+        "290 x 385 mm"
+        "/images/lines-and-other-shapes/untitled-29.jpg"
+    , C.workGroup
+        "Tally Marks + Black Lines"
+        "Pen and pencil on paper + Ink on paper"
+        "Each 297 x 210 mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/lines-and-other-shapes/tally-marks.jpg" ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/lines-and-other-shapes/black-lines.jpg" ]
+        ]
     , C.work
         "Black, Grey and Orange"
         "Felt tip pen on paper"
         "210 x 297 mm"
         "/images/lines-and-other-shapes/black-grey-and-orange.jpg"
     , C.work
-        "Black Lines"
+        "Blue Lines"
         "Ink on paper"
-        "297 x 210 mm"
-        "/images/lines-and-other-shapes/black-lines.jpg"
-    , C.work
-        "Untitled 29"
-        "Mixed media on paper"
-        "290 x 385 mm"
-        "/images/lines-and-other-shapes/untitled-29.jpg"
-    , C.work
-        "Tally Marks"
-        "Pen and pencil on paper"
-        "297 x 210 mm"
-        "/images/lines-and-other-shapes/tally-marks.jpg"
+        "100 x 100 mm"
+        "/images/lines-and-other-shapes/blue-lines.jpg"
     , C.scrollToTop "drawings"
     ]
 
