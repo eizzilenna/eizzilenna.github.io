@@ -10518,7 +10518,7 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 			},
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
+				_0: _eizzilenna$portfolio$Components$leadParagraph('\nA sample selection of drawings created between 2005 and 2017. Examples from\nearlier work include large-scale isometric drawings in pencil that map everyday\nactivities (making telephone calls, going shopping) using mathematical\nalgorithms. Later pieces explore different mediums, colours and composition and\nabandon previous rules-based systems in favour of intuition.\n'),
 				_1: {ctor: '[]'}
 			}),
 		_1: {
