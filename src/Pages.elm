@@ -285,78 +285,78 @@ interiors =
         , C.paragraph C.loremParagraph
         ]
     , C.workGroup
-      "Sitting Room"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-40-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-1.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-2.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-3.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-4.jpg" ] []
-          ]
-      ]
+        "Sitting Room"
+        C.loremTitle
+        [ H.div [ A.class "fl w-100 w-40-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-1.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-3.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-4.jpg" ] []
+            ]
+        ]
     , C.workGroup
-      "Bookshelf"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
-          ]
-      ]
+        "Bookshelf"
+        C.loremTitle
+        [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-50-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-2.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-3.jpg" ] []
+            ]
+        ]
     , C.workGroup
-      "Desk"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-40-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/desk/desk-1.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-60-ns" ]
-          [ H.div [ A.class "fl w-100 w-60-ns pr2-ns" ]
-              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-2.jpg" ] []
-              ]
-          , H.div [ A.class "fl w-100 w-40-ns pl2-ns" ]
-              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-3.jpg" ] []
-              ]
-          ]
-      , H.div [ A.class "fl w-100 w-60-ns" ]
-          [ H.div [ A.class "fl w-100 w-40-ns pr2-ns" ]
-              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-4.jpg" ] []
-              ]
-          , H.div [ A.class "fl w-100 w-60-ns pl2-ns" ]
-              [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-5.jpg" ] []
-              ]
-          ]
-      ]
+        "Desk"
+        C.loremTitle
+        [ H.div [ A.class "fl w-100 w-40-ns pr3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/desk/desk-1.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns" ]
+            [ H.div [ A.class "fl w-100 w-60-ns pr2-ns" ]
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-2.jpg" ] []
+                ]
+            , H.div [ A.class "fl w-100 w-40-ns pl2-ns" ]
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-3.jpg" ] []
+                ]
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns" ]
+            [ H.div [ A.class "fl w-100 w-40-ns pr2-ns" ]
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-4.jpg" ] []
+                ]
+            , H.div [ A.class "fl w-100 w-60-ns pl2-ns" ]
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-5.jpg" ] []
+                ]
+            ]
+        ]
     , C.workGroup
-      "Dining Area"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
-          ]
-      ]
+        "Dining Area"
+        C.loremTitle
+        [ H.div [ A.class "fl w-100 w-50-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
+            ]
+        ]
     , C.workGroup
-      "Hallway"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-40-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
-          ]
-      ]
+        "Hallway"
+        C.loremTitle
+        [ H.div [ A.class "fl w-100 w-40-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
+            ]
+        ]
     ]
 
 notFound : Html msg
