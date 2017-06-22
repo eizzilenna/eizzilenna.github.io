@@ -281,8 +281,22 @@ interiors : Html msg
 interiors =
   H.div []
     [ C.pageHeader "interiors" "Interiors" C.loremTitle
-        [ C.leadParagraph C.loremParagraph
-        , C.paragraph C.loremParagraph
+        [ C.leadParagraph """
+Carefully arranged to maximise the space and light, this South East London
+apartment, with its open-plan layout and large floor to ceiling windows, is
+ideal for housing its owners collections of pottery, glass and art.
+"""
+        , C.paragraph """
+To utilise the space available, the layout has been intelligently configured
+into separate ‘zones’ using grouped furniture that maintains a view from the
+front door right through to the outside.
+"""
+        , C.paragraph """
+Large spaces are painted white and smaller areas a soft muted grey to create a
+sense of depth. The warm oak flooring is laid throughout the entire open-plan
+living space. A mixture of mid-century furniture and simple contemporary
+pieces complement each other, creating a retro yet modern feel.
+"""
         ]
     , C.workGroup
         "Sitting Room"
