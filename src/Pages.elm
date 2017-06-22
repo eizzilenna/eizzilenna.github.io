@@ -392,6 +392,7 @@ by greenery.
             , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
             ]
         ]
+    , C.scrollToTop "interiors"
     ]
 
 notFound : Html msg
