@@ -216,10 +216,10 @@ collages =
         "/images/bird-collages/blue-bird.jpg"
     , C.workHeader "Magasin Collage" C.loremTitle C.loremParagraph
     , C.work
-       "Design"
-       "Mixed media on paper"
-       "297 x 210mm"
-       "/images/magasin-collage/design.jpg"
+        "Design"
+        "Mixed media on paper"
+        "297 x 210mm"
+        "/images/magasin-collage/design.jpg"
     , C.work
         "Yellow Can"
         "Mixed media on paper"
