@@ -124,52 +124,26 @@ collages =
   H.div []
     [ C.pageHeader "collages" "Collages"
         [ C.leadParagraph C.loremParagraph ]
-    , C.workHeader "Postcards" C.loremTitle C.loremParagraph
-    , C.work
-        "Untitled 1"
+    , C.workGroup
+        "Postcards"
         "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-1.jpg"
-    , C.work
-        "Untitled 2"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-2.jpg"
-    , C.work
-        "Untitled 3"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-3.jpg"
-    , C.work
-        "Untitled 4"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-4.jpg"
-    , C.work
-        "Untitled 5"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-5.jpg"
-    , C.work
-        "Untitled 6"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-6.jpg"
-    , C.work
-        "Untitled 7"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-7.jpg"
-    , C.work
-        "Untitled 8"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-8.jpg"
-    , C.work
-        "Untitled 9"
-        "Mixed media on card"
-        "105 x 148 mm"
-        "/images/postcards/untitled-9.jpg"
+        "each 105 x 148 mm"
+        [ H.div [ A.class "fl w-100 w-third-ns pr2-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-2.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-3.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-third-ns pl1-ns pr1-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-4.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-5.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-6.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-third-ns pl2-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-7.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-8.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/postcards/untitled-9.jpg" ] []
+            ]
+        ]
     , C.workHeader "Lines and Other Shapes" C.loremTitle C.loremParagraph
     , C.work
         "Two Blocks"
