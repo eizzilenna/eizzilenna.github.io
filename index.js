@@ -8424,34 +8424,6 @@ var _eizzilenna$portfolio$Components$work = F4(
 				}
 			});
 	});
-var _eizzilenna$portfolio$Components$paragraph = function (content) {
-	return A2(
-		_elm_lang$html$Html$p,
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('f5 lh-copy measure'),
-			_1: {ctor: '[]'}
-		},
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html$text(content),
-			_1: {ctor: '[]'}
-		});
-};
-var _eizzilenna$portfolio$Components$leadParagraph = function (content) {
-	return A2(
-		_elm_lang$html$Html$p,
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('f5 lh-copy measure mt0-ns'),
-			_1: {ctor: '[]'}
-		},
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html$text(content),
-			_1: {ctor: '[]'}
-		});
-};
 var _eizzilenna$portfolio$Components$pageHeader = F4(
 	function (id, title, subTitle, content) {
 		return A2(
@@ -8514,18 +8486,39 @@ var _eizzilenna$portfolio$Components$pageHeader = F4(
 							_0: _elm_lang$html$Html_Attributes$class('fn fl-ns w-50-ns'),
 							_1: {ctor: '[]'}
 						},
-						{
-							ctor: '::',
-							_0: A2(
-								_elm_lang$core$Maybe$withDefault,
-								_elm_lang$html$Html$text(''),
-								A2(_elm_lang$core$Maybe$map, _eizzilenna$portfolio$Components$leadParagraph, content)),
-							_1: {ctor: '[]'}
-						}),
+						content),
 					_1: {ctor: '[]'}
 				}
 			});
 	});
+var _eizzilenna$portfolio$Components$paragraph = function (content) {
+	return A2(
+		_elm_lang$html$Html$p,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('f5 lh-copy measure'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(content),
+			_1: {ctor: '[]'}
+		});
+};
+var _eizzilenna$portfolio$Components$leadParagraph = function (content) {
+	return A2(
+		_elm_lang$html$Html$p,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('f5 lh-copy measure mt0-ns'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(content),
+			_1: {ctor: '[]'}
+		});
+};
 var _eizzilenna$portfolio$Components$workHeader = F3(
 	function (title, subTitle, content) {
 		return A2(
@@ -9830,7 +9823,12 @@ var _elm_lang$navigation$Navigation$onEffects = F4(
 	});
 _elm_lang$core$Native_Platform.effectManagers['Navigation'] = {pkg: 'elm-lang/navigation', init: _elm_lang$navigation$Navigation$init, onEffects: _elm_lang$navigation$Navigation$onEffects, onSelfMsg: _elm_lang$navigation$Navigation$onSelfMsg, tag: 'fx', cmdMap: _elm_lang$navigation$Navigation$cmdMap, subMap: _elm_lang$navigation$Navigation$subMap};
 
-var _eizzilenna$portfolio$Pages$notFound = A4(_eizzilenna$portfolio$Components$pageHeader, '404', '404', 'Nothing to see here.', _elm_lang$core$Maybe$Nothing);
+var _eizzilenna$portfolio$Pages$notFound = A4(
+	_eizzilenna$portfolio$Components$pageHeader,
+	'404',
+	'404',
+	'Nothing to see here.',
+	{ctor: '[]'});
 var _eizzilenna$portfolio$Pages$interiors = A2(
 	_elm_lang$html$Html$div,
 	{ctor: '[]'},
@@ -9841,7 +9839,15 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			'interiors',
 			'Interiors',
 			_eizzilenna$portfolio$Components$loremTitle,
-			_elm_lang$core$Maybe$Just(_eizzilenna$portfolio$Components$loremParagraph)),
+			{
+				ctor: '::',
+				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_1: {
+					ctor: '::',
+					_0: _eizzilenna$portfolio$Components$paragraph(_eizzilenna$portfolio$Components$loremParagraph),
+					_1: {ctor: '[]'}
+				}
+			}),
 		_1: {
 			ctor: '::',
 			_0: A3(
@@ -10366,7 +10372,11 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			'collages',
 			'Collages',
 			_eizzilenna$portfolio$Components$loremTitle,
-			_elm_lang$core$Maybe$Just(_eizzilenna$portfolio$Components$loremParagraph)),
+			{
+				ctor: '::',
+				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_1: {ctor: '[]'}
+			}),
 		_1: {
 			ctor: '::',
 			_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Postcards', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
@@ -10519,7 +10529,11 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 			'drawings',
 			'Drawings',
 			_eizzilenna$portfolio$Components$loremTitle,
-			_elm_lang$core$Maybe$Just(_eizzilenna$portfolio$Components$loremParagraph)),
+			{
+				ctor: '::',
+				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_1: {ctor: '[]'}
+			}),
 		_1: {
 			ctor: '::',
 			_0: A3(_eizzilenna$portfolio$Components$workHeader, 'Scribbles', _eizzilenna$portfolio$Components$loremTitle, _eizzilenna$portfolio$Components$loremParagraph),
@@ -10607,7 +10621,11 @@ var _eizzilenna$portfolio$Pages$about = A2(
 				'about',
 				'About',
 				_eizzilenna$portfolio$Components$loremTitle,
-				_elm_lang$core$Maybe$Just(_eizzilenna$portfolio$Components$loremParagraph)),
+				{
+					ctor: '::',
+					_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+					_1: {ctor: '[]'}
+				}),
 			_1: {ctor: '[]'}
 		}
 	});
