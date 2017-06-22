@@ -10149,7 +10149,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-4.jpg'),
+																_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-4.jpg'),
 																_1: {ctor: '[]'}
 															}
 														},
@@ -10174,7 +10174,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 																_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 																_1: {
 																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-5.jpg'),
+																	_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-5.jpg'),
 																	_1: {ctor: '[]'}
 																}
 															},
