@@ -10351,7 +10351,11 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_1: {ctor: '[]'}
 									}
 								}),
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: _eizzilenna$portfolio$Components$scrollToTop('interiors'),
+								_1: {ctor: '[]'}
+							}
 						}
 					}
 				}
