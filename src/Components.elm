@@ -15,21 +15,6 @@ onClick message =
 
 
 
--- Placeholders
-
-loremTitle : String
-loremTitle = "Lorem ipsum dolor sit amet"
-
-loremParagraph : String
-loremParagraph = """
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
-"""
-
-
-
 -- Layout
 
 layout : List (Html msg) -> Html msg

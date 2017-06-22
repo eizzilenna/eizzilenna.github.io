@@ -31,14 +31,26 @@ about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "https://placehold.it/960x240"
     , C.pageHeader "about" "About"
-        [ C.leadParagraph C.loremParagraph ]
+        [ C.leadParagraph """
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+"""
+        ]
     ]
 
 drawings : Html msg
 drawings =
   H.div []
     [ C.pageHeader "drawings" "Drawings"
-        [ C.leadParagraph C.loremParagraph ]
+        [ C.leadParagraph """
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+"""
+        ]
     , C.work
         "Untitled 20"
         "Pencil on paper"
@@ -135,7 +147,13 @@ collages : Html msg
 collages =
   H.div []
     [ C.pageHeader "collages" "Collages"
-        [ C.leadParagraph C.loremParagraph ]
+        [ C.leadParagraph """
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+"""
+        ]
     , C.workGroup
         "Yellow Can + Guilt Tripping, Nice World"
         "Mixed media on paper"
