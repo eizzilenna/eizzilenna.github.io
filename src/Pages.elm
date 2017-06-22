@@ -30,12 +30,23 @@ about : Html msg
 about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "/images/about.jpg"
-    , C.pageHeader [ C.h1 "about" "About" ]
+    , C.pageHeader
+        [ C.h1 "about" "About"
+        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ]
+          [ H.a [ A.class "dim dark-gray f6 f5-l dib mr2 mr3-l no-underline", A.href "mailto:earimmington@live.com" ]
+              [H.text "earimmington@live.com"] ]
+        , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ]
+          [ H.a [ A.class "dim dark-gray f6 f5-l dib mr2 mr3-l no-underline", A.href "tel:00447861376077" ]
+              [H.text "0044 (0) 7861 376 077"] ]
+        ]
         [ C.leadParagraph """
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Elizabeth Anne Wright is a London-based artist and designer with a passion for
+creating beautiful things and spaces.
+"""
+        , C.paragraph """
+Since completing her degree in Drawing at Camberwell College of Arts, Elizabeth
+has continued to create work that has evolved with influences from both graphic
+design and conceptual art.
 """
         ]
     ]
