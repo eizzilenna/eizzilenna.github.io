@@ -78,10 +78,10 @@ navLinkLast navigate title href class =
     ]
     [ H.text title ]
 
-scrollToTop : String -> Html msg
-scrollToTop id =
+scrollToTop : Html msg
+scrollToTop =
   H.div [ A.class "cf" ]
-    [ H.a [ A.class "fr lh-copy dim no-underline dark-gray", A.href ("#" ++ id) ]
+    [ H.a [ A.class "fr lh-copy dim no-underline dark-gray", A.href "#app" ]
         [ H.text "^ Back to top" ]
     ]
 
@@ -96,9 +96,9 @@ paragraph : String -> Html msg
 paragraph content =
   H.p [ A.class "f5 lh-copy measure" ] [ H.text content ]
 
-h1 : String -> String -> Html msg
-h1 id title =
-  H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
+h1 : String -> Html msg
+h1 title =
+  H.h1 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
 
 pageHeader : List (Html msg) -> List (Html msg) -> Html msg
 pageHeader headers content =

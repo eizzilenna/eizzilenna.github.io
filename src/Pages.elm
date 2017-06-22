@@ -31,7 +31,7 @@ about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "/images/about.jpg"
     , C.pageHeader
-        [ C.h1 "about" "About"
+        [ C.h1 "About"
         , H.h2 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ]
           [ H.a [ A.class "dim dark-gray f6 f5-l dib mr2 mr3-l no-underline", A.href "mailto:earimmington@live.com" ]
               [H.text "earimmington@live.com"] ]
@@ -54,7 +54,7 @@ design and conceptual art.
 drawings : Html msg
 drawings =
   H.div []
-    [ C.pageHeader [ C.h1 "drawings" "Drawings" ]
+    [ C.pageHeader [ C.h1 "Drawings" ]
         [ C.leadParagraph """
 A sample selection of drawings created between 2005 and 2017. Examples from
 earlier work include large-scale isometric drawings in pencil that map everyday
@@ -152,13 +152,13 @@ abandon previous rules-based systems in favour of intuition.
         "Ink on paper"
         "100 x 100 mm"
         "/images/lines-and-other-shapes/blue-lines.jpg"
-    , C.scrollToTop "drawings"
+    , C.scrollToTop
     ]
 
 collages : Html msg
 collages =
   H.div []
-    [ C.pageHeader [ C.h1 "collages" "Collages" ]
+    [ C.pageHeader [ C.h1 "Collages" ]
         [ C.leadParagraph "Collage: noun."
         , H.ol [ A.class "f5 lh-title measure" ]
             [ H.li [ A.class "pb2" ] [ H.text "a piece of art made by sticking various different materials such as photographs and pieces of paper or fabric on to a backing." ]
@@ -245,13 +245,13 @@ collages =
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
             [ C.groupImage "/images/bird-collages/blue-bird.jpg" ]
         ]
-    , C.scrollToTop "collages"
+    , C.scrollToTop
     ]
 
 interiors : Html msg
 interiors =
   H.div []
-    [ C.pageHeader [ C.h1 "interiors" "Interiors" ]
+    [ C.pageHeader [ C.h1 "Interiors" ]
         [ C.leadParagraph """
 Carefully arranged to maximise the space and light, this South East London
 apartment, with its open-plan layout and large floor to ceiling windows, is
@@ -363,9 +363,9 @@ books and other objects, as well as a room divider between the dining area and t
             , C.groupImage "/images/bookshelf/bookshelf-3.jpg"
             ]
         ]
-    , C.scrollToTop "interiors"
+    , C.scrollToTop
     ]
 
 notFound : Html msg
 notFound =
-  C.pageHeader [ C.h1 "404" "404" ] []
+  C.pageHeader [ C.h1 "404" ] []

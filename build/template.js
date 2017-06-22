@@ -9,12 +9,12 @@ const template = (content) => `
     <link rel="stylesheet" href="/style.min.css">
   </head>
   <body class="w-100 avenir dark-gray bg-light-gray">
-    <div id="mount">
+    <div id="app">
       ${content}
     </div>
     <script src="index.min.js"></script>
     <script>
-      Elm.Main.embed(document.getElementById('mount'));
+      Elm.Main.embed(document.getElementById('app'));
     </script>
   </body>
 </html>
