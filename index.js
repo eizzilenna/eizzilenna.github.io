@@ -8261,7 +8261,7 @@ var _elm_lang$html$Html_Events$Options = F2(
 	});
 
 var _eizzilenna$portfolio$Components$workGroup = F3(
-	function (title, media, children) {
+	function (title, description, children) {
 		return A2(
 			_elm_lang$html$Html$article,
 			{
@@ -8283,11 +8283,7 @@ var _eizzilenna$portfolio$Components$workGroup = F3(
 					ctor: '::',
 					_0: A2(
 						_elm_lang$html$Html$header,
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('fn fl-ns pr4-ns'),
-							_1: {ctor: '[]'}
-						},
+						{ctor: '[]'},
 						{
 							ctor: '::',
 							_0: A2(
@@ -8302,24 +8298,20 @@ var _eizzilenna$portfolio$Components$workGroup = F3(
 									_0: _elm_lang$html$Html$text(title),
 									_1: {ctor: '[]'}
 								}),
-							_1: {
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$h3,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('f5 fw4 mid-gray mb1 mt0 lh-title'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html$text(media),
-										_1: {ctor: '[]'}
-									}),
-								_1: {ctor: '[]'}
-							}
+							_1: {ctor: '[]'}
 						}),
-					_1: {ctor: '[]'}
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{ctor: '[]'},
+							{
+								ctor: '::',
+								_0: description,
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
 				}
 			});
 	});
@@ -9841,19 +9833,23 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			_eizzilenna$portfolio$Components$loremTitle,
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_0: _eizzilenna$portfolio$Components$leadParagraph('\nCarefully arranged to maximise the space and light, this South East London\napartment, with its open-plan layout and large floor to ceiling windows, is\nideal for housing its owners collections of pottery, glass and art.\n'),
 				_1: {
 					ctor: '::',
-					_0: _eizzilenna$portfolio$Components$paragraph(_eizzilenna$portfolio$Components$loremParagraph),
-					_1: {ctor: '[]'}
+					_0: _eizzilenna$portfolio$Components$paragraph('\nTo utilise the space available, the layout has been intelligently configured\ninto separate ‘zones’ using grouped furniture that maintains a view from the\nfront door right through to the outside.\n'),
+					_1: {
+						ctor: '::',
+						_0: _eizzilenna$portfolio$Components$paragraph('\nLarge spaces are painted white and smaller areas a soft muted grey to create a\nsense of depth. The warm oak flooring is laid throughout the entire open-plan\nliving space. A mixture of mid-century furniture and simple contemporary\npieces complement each other, creating a retro yet modern feel.\n'),
+						_1: {ctor: '[]'}
+					}
 				}
 			}),
 		_1: {
 			ctor: '::',
 			_0: A3(
 				_eizzilenna$portfolio$Components$workGroup,
-				'Sitting Room',
-				_eizzilenna$portfolio$Components$loremTitle,
+				'Sitting Area',
+				_eizzilenna$portfolio$Components$paragraph('\nThe colours in the painting by Finnish artist Henry Wright are mirrored in the\ncushions and Marimekko fabric used on the sofa.  A vintage bookshelf houses an\neclectic array of objects, including a pair of Staffordshire ‘Wally dugs’ found\nin a market in Greenwich and vintage glass pieces bought in Sweden and Finland.\n'),
 				{
 					ctor: '::',
 					_0: A2(
@@ -9872,7 +9868,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 									_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 									_1: {
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-1.jpg'),
+										_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-1.jpg'),
 										_1: {ctor: '[]'}
 									}
 								},
@@ -9897,7 +9893,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-2.jpg'),
+											_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-2.jpg'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -9922,7 +9918,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-3.jpg'),
+												_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-3.jpg'),
 												_1: {ctor: '[]'}
 											}
 										},
@@ -9947,7 +9943,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-4.jpg'),
+													_0: _elm_lang$html$Html_Attributes$src('/images/sitting-area/sitting-area-4.jpg'),
 													_1: {ctor: '[]'}
 												}
 											},
@@ -9964,7 +9960,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 				_0: A3(
 					_eizzilenna$portfolio$Components$workGroup,
 					'Bookshelf',
-					_eizzilenna$portfolio$Components$loremTitle,
+					_eizzilenna$portfolio$Components$paragraph('\nThe large bookshelf acts as both a storage/display area for a collection of\nbooks and other objects, as well as a room divider between the dining area and the workspace.\n'),
 					{
 						ctor: '::',
 						_0: A2(
@@ -10037,8 +10033,8 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 					ctor: '::',
 					_0: A3(
 						_eizzilenna$portfolio$Components$workGroup,
-						'Desk',
-						_eizzilenna$portfolio$Components$loremTitle,
+						'Workspace',
+						_eizzilenna$portfolio$Components$paragraph('\nThe workspace houses a simple white desk that sits neatly within a recess at\nthe end of the living space. Brightly coloured objects, including a vintage\ntypewriter and several pot plants provide vibrant pockets of colour against the\nlight grey back wall.\n'),
 						{
 							ctor: '::',
 							_0: A2(
@@ -10057,7 +10053,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-1.jpg'),
+												_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-1.jpg'),
 												_1: {ctor: '[]'}
 											}
 										},
@@ -10091,7 +10087,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-2.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-2.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10116,7 +10112,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-3.jpg'),
+																_0: _elm_lang$html$Html_Attributes$src('/images/workspace/workspace-3.jpg'),
 																_1: {ctor: '[]'}
 															}
 														},
@@ -10196,15 +10192,15 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 						ctor: '::',
 						_0: A3(
 							_eizzilenna$portfolio$Components$workGroup,
-							'Dining Area',
-							_eizzilenna$portfolio$Components$loremTitle,
+							'Hallway',
+							_eizzilenna$portfolio$Components$paragraph('\nThe Componibili storage unit by Kartell and a small teak drawer unit provide\nspace for another set of the owners collections, including glassware by Danish\ndesign company Normann Copenhagen and Alvar Aalto for Iittala.\n'),
 							{
 								ctor: '::',
 								_0: A2(
 									_elm_lang$html$Html$div,
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
 										_1: {ctor: '[]'}
 									},
 									{
@@ -10216,7 +10212,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-1.jpg'),
+													_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-1.jpg'),
 													_1: {ctor: '[]'}
 												}
 											},
@@ -10230,7 +10226,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-2.jpg'),
+														_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-2.jpg'),
 														_1: {ctor: '[]'}
 													}
 												},
@@ -10244,7 +10240,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl3-ns'),
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl3-ns'),
 											_1: {ctor: '[]'}
 										},
 										{
@@ -10256,27 +10252,12 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-3.jpg'),
+														_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-3.jpg'),
 														_1: {ctor: '[]'}
 													}
 												},
 												{ctor: '[]'}),
-											_1: {
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$img,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-4.jpg'),
-															_1: {ctor: '[]'}
-														}
-													},
-													{ctor: '[]'}),
-												_1: {ctor: '[]'}
-											}
+											_1: {ctor: '[]'}
 										}),
 									_1: {ctor: '[]'}
 								}
@@ -10285,15 +10266,15 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 							ctor: '::',
 							_0: A3(
 								_eizzilenna$portfolio$Components$workGroup,
-								'Hallway',
-								_eizzilenna$portfolio$Components$loremTitle,
+								'Dining Area',
+								_eizzilenna$portfolio$Components$paragraph('\nA Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an\nErcol drop leaf dining table, which is bathed in natural light and surrounded\nby greenery.\n'),
 								{
 									ctor: '::',
 									_0: A2(
 										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
 											_1: {ctor: '[]'}
 										},
 										{
@@ -10305,7 +10286,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-1.jpg'),
+														_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-1.jpg'),
 														_1: {ctor: '[]'}
 													}
 												},
@@ -10319,7 +10300,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-2.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-2.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10333,7 +10314,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl3-ns'),
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl3-ns'),
 												_1: {ctor: '[]'}
 											},
 											{
@@ -10345,12 +10326,27 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/hallway/hallway-3.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-3.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
 													{ctor: '[]'}),
-												_1: {ctor: '[]'}
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$img,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$src('/images/dining-table/dining-table-4.jpg'),
+																_1: {ctor: '[]'}
+															}
+														},
+														{ctor: '[]'}),
+													_1: {ctor: '[]'}
+												}
 											}),
 										_1: {ctor: '[]'}
 									}
