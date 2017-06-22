@@ -7,6 +7,8 @@ import Json.Decode as Decode
 
 
 
+-- Helpers
+
 onClick : msg -> Attribute msg
 onClick message =
   E.onWithOptions "click" (E.Options False True) (Decode.succeed message)
@@ -26,45 +28,6 @@ vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.
 """
 
-loremWorkPortrait : Html msg
-loremWorkPortrait =
-  work
-    "Untitled 1."
-    loremTitle
-    "1024 x 576"
-    "https://placehold.it/1024x576"
-
-loremWorkLandscape : Html msg
-loremWorkLandscape =
-  work
-    "Untitled 2."
-    loremTitle
-    "1024 x 576"
-    "https://placehold.it/640x960"
-
-loremWorkGroup : Html msg
-loremWorkGroup =
-  workGroup
-    "Untitled 2."
-    loremTitle
-    [ H.div [ A.class "fl w-100 w-50-ns ph0" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
-        ]
-    , H.div [ A.class "fl w-50 w-25-ns pl0 pl3-ns" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
-        ]
-    , H.div [ A.class "fl w-50 w-25-ns pl3" ]
-        [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x480" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/480x640" ] []
-        , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/640x640" ] []
-        ]
-    ]
-
 
 
 -- Layout
@@ -73,6 +36,8 @@ layout : List (Html msg) -> Html msg
 layout children =
   H.div [ A.class "center mw8"]
     [ H.div [ A.class "ph3 ph5-ns pb5" ] children ]
+
+
 
 -- Navigation
 
@@ -137,7 +102,6 @@ scrollToTop id =
 
 
 
-
 -- Headers
 
 leadParagraph : String -> Html msg
@@ -166,6 +130,7 @@ workHeader title subTitle content =
         ]
     , H.div [ A.class "fn fl-ns w-50-ns" ] [ leadParagraph content ]
     ]
+
 
 
 -- Works
