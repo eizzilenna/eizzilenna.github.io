@@ -342,12 +342,12 @@ interiors =
     , C.workGroup
       "Hallway"
       C.loremTitle
-      [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/800x1200" ] []
+      [ H.div [ A.class "fl w-100 w-40-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
+          , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
           ]
-      , H.div [ A.class "fl w-100 w-50-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
-          , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
+      , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
           ]
       ]
     ]
