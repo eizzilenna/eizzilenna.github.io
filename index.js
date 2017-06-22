@@ -8508,8 +8508,8 @@ var _eizzilenna$portfolio$Components$work = F4(
 				}
 			});
 	});
-var _eizzilenna$portfolio$Components$pageHeader = F3(
-	function (id, title, content) {
+var _eizzilenna$portfolio$Components$pageHeader = F2(
+	function (headers, content) {
 		return A2(
 			_elm_lang$html$Html$article,
 			{
@@ -8526,26 +8526,7 @@ var _eizzilenna$portfolio$Components$pageHeader = F3(
 						_0: _elm_lang$html$Html_Attributes$class('fn fl-ns w-50-ns pr4-ns'),
 						_1: {ctor: '[]'}
 					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$h1,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$id(id),
-								_1: {
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('f2 lh-title fw6 mb1 mt0 pt3 bt bw1'),
-									_1: {ctor: '[]'}
-								}
-							},
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html$text(title),
-								_1: {ctor: '[]'}
-							}),
-						_1: {ctor: '[]'}
-					}),
+					headers),
 				_1: {
 					ctor: '::',
 					_0: A2(
@@ -8558,6 +8539,25 @@ var _eizzilenna$portfolio$Components$pageHeader = F3(
 						content),
 					_1: {ctor: '[]'}
 				}
+			});
+	});
+var _eizzilenna$portfolio$Components$h1 = F2(
+	function (id, title) {
+		return A2(
+			_elm_lang$html$Html$h1,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$id(id),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('f2 lh-title fw6 mb1 mt0 pt3 bt bw1'),
+					_1: {ctor: '[]'}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text(title),
+				_1: {ctor: '[]'}
 			});
 	});
 var _eizzilenna$portfolio$Components$paragraph = function (content) {
@@ -9823,20 +9823,26 @@ var _elm_lang$navigation$Navigation$onEffects = F4(
 	});
 _elm_lang$core$Native_Platform.effectManagers['Navigation'] = {pkg: 'elm-lang/navigation', init: _elm_lang$navigation$Navigation$init, onEffects: _elm_lang$navigation$Navigation$onEffects, onSelfMsg: _elm_lang$navigation$Navigation$onSelfMsg, tag: 'fx', cmdMap: _elm_lang$navigation$Navigation$cmdMap, subMap: _elm_lang$navigation$Navigation$subMap};
 
-var _eizzilenna$portfolio$Pages$notFound = A3(
+var _eizzilenna$portfolio$Pages$notFound = A2(
 	_eizzilenna$portfolio$Components$pageHeader,
-	'404',
-	'404',
+	{
+		ctor: '::',
+		_0: A2(_eizzilenna$portfolio$Components$h1, '404', '404'),
+		_1: {ctor: '[]'}
+	},
 	{ctor: '[]'});
 var _eizzilenna$portfolio$Pages$interiors = A2(
 	_elm_lang$html$Html$div,
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: A3(
+		_0: A2(
 			_eizzilenna$portfolio$Components$pageHeader,
-			'interiors',
-			'Interiors',
+			{
+				ctor: '::',
+				_0: A2(_eizzilenna$portfolio$Components$h1, 'interiors', 'Interiors'),
+				_1: {ctor: '[]'}
+			},
 			{
 				ctor: '::',
 				_0: _eizzilenna$portfolio$Components$leadParagraph('\nCarefully arranged to maximise the space and light, this South East London\napartment, with its open-plan layout and large floor to ceiling windows, is\nideal for housing its owners collections of pottery, glass and art.\n'),
@@ -10164,10 +10170,13 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: A3(
+		_0: A2(
 			_eizzilenna$portfolio$Components$pageHeader,
-			'collages',
-			'Collages',
+			{
+				ctor: '::',
+				_0: A2(_eizzilenna$portfolio$Components$h1, 'collages', 'Collages'),
+				_1: {ctor: '[]'}
+			},
 			{
 				ctor: '::',
 				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
@@ -10500,10 +10509,13 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: A3(
+		_0: A2(
 			_eizzilenna$portfolio$Components$pageHeader,
-			'drawings',
-			'Drawings',
+			{
+				ctor: '::',
+				_0: A2(_eizzilenna$portfolio$Components$h1, 'drawings', 'Drawings'),
+				_1: {ctor: '[]'}
+			},
 			{
 				ctor: '::',
 				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
@@ -10766,17 +10778,84 @@ var _eizzilenna$portfolio$Pages$about = A2(
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: A2(_eizzilenna$portfolio$Components$image, 'Elizabeth Anne Wright', 'https://placehold.it/960x240'),
+		_0: A2(_eizzilenna$portfolio$Components$image, 'Elizabeth Anne Wright', '/images/about.jpg'),
 		_1: {
 			ctor: '::',
-			_0: A3(
+			_0: A2(
 				_eizzilenna$portfolio$Components$pageHeader,
-				'about',
-				'About',
 				{
 					ctor: '::',
-					_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
-					_1: {ctor: '[]'}
+					_0: A2(_eizzilenna$portfolio$Components$h1, 'about', 'About'),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$h2,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('f5 fw4 mid-gray mb1 mt0 lh-title'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$a,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('dim dark-gray f6 f5-l dib mr2 mr3-l no-underline'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$href('mailto:earimmington@live.com'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('earimmington@live.com'),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$h2,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('f5 fw4 mid-gray mb1 mt0 lh-title'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$a,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('dim dark-gray f6 f5-l dib mr2 mr3-l no-underline'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$href('tel:00447861376077'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('0044 (0) 7861 376 077'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				},
+				{
+					ctor: '::',
+					_0: _eizzilenna$portfolio$Components$leadParagraph('\nElizabeth Anne Wright is a London-based artist and designer with a passion for\ncreating beautiful things and spaces.\n'),
+					_1: {
+						ctor: '::',
+						_0: _eizzilenna$portfolio$Components$paragraph('\nSince completing her degree in Drawing at Camberwell College of Arts, Elizabeth\nhas continued to create work that has evolved with influences from both graphic\ndesign and conceptual art.\n'),
+						_1: {ctor: '[]'}
+					}
 				}),
 			_1: {ctor: '[]'}
 		}
