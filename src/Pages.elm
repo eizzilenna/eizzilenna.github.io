@@ -100,34 +100,6 @@ drawings =
         "Pencil on paper"
         "570 x 760 mm"
         "/images/drawings/eduardo-marquina.jpg"
-    , C.scrollToTop "drawings"
-    ]
-
-collages : Html msg
-collages =
-  H.div []
-    [ C.pageHeader "collages" "Collages"
-        [ C.leadParagraph C.loremParagraph ]
-    , C.workGroup
-        "Postcards"
-        "Mixed media on card"
-        "Each 105 x 148 mm"
-        [ H.div [ A.class "fl w-100 w-third-ns pr2-ns" ]
-            [ C.groupImage "/images/postcards/untitled-1.jpg"
-            , C.groupImage "/images/postcards/untitled-2.jpg"
-            , C.groupImage "/images/postcards/untitled-3.jpg"
-            ]
-        , H.div [ A.class "fl w-100 w-third-ns pl1-ns pr1-ns" ]
-            [ C.groupImage "/images/postcards/untitled-4.jpg"
-            , C.groupImage "/images/postcards/untitled-5.jpg"
-            , C.groupImage "/images/postcards/untitled-6.jpg"
-            ]
-        , H.div [ A.class "fl w-100 w-third-ns pl2-ns" ]
-            [ C.groupImage "/images/postcards/untitled-7.jpg"
-            , C.groupImage "/images/postcards/untitled-8.jpg"
-            , C.groupImage "/images/postcards/untitled-9.jpg"
-            ]
-        ]
     , C.work
         "Two Blocks"
         "Pencil and ink on paper"
@@ -158,6 +130,34 @@ collages =
         "Pen and pencil on paper"
         "297 x 210 mm"
         "/images/lines-and-other-shapes/tally-marks.jpg"
+    , C.scrollToTop "drawings"
+    ]
+
+collages : Html msg
+collages =
+  H.div []
+    [ C.pageHeader "collages" "Collages"
+        [ C.leadParagraph C.loremParagraph ]
+    , C.workGroup
+        "Postcards"
+        "Mixed media on card"
+        "Each 105 x 148 mm"
+        [ H.div [ A.class "fl w-100 w-third-ns pr2-ns" ]
+            [ C.groupImage "/images/postcards/untitled-1.jpg"
+            , C.groupImage "/images/postcards/untitled-2.jpg"
+            , C.groupImage "/images/postcards/untitled-3.jpg"
+            ]
+        , H.div [ A.class "fl w-100 w-third-ns pl1-ns pr1-ns" ]
+            [ C.groupImage "/images/postcards/untitled-4.jpg"
+            , C.groupImage "/images/postcards/untitled-5.jpg"
+            , C.groupImage "/images/postcards/untitled-6.jpg"
+            ]
+        , H.div [ A.class "fl w-100 w-third-ns pl2-ns" ]
+            [ C.groupImage "/images/postcards/untitled-7.jpg"
+            , C.groupImage "/images/postcards/untitled-8.jpg"
+            , C.groupImage "/images/postcards/untitled-9.jpg"
+            ]
+        ]
     , C.work
         "Grey Wagtail"
         "Mixed media on paper"
