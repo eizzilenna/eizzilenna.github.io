@@ -10036,7 +10036,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			ctor: '::',
 			_0: A3(
 				_eizzilenna$portfolio$Components$workGroup,
-				'Bookshelf',
+				'Sitting Room',
 				_eizzilenna$portfolio$Components$loremTitle,
 				{
 					ctor: '::',
@@ -10044,7 +10044,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 						_elm_lang$html$Html$div,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+							_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
 							_1: {ctor: '[]'}
 						},
 						{
@@ -10056,7 +10056,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 									_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 									_1: {
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-1.jpg'),
+										_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-1.jpg'),
 										_1: {ctor: '[]'}
 									}
 								},
@@ -10069,7 +10069,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 							_elm_lang$html$Html$div,
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-30-ns pl3-ns'),
 								_1: {ctor: '[]'}
 							},
 							{
@@ -10081,56 +10081,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-2.jpg'),
-											_1: {ctor: '[]'}
-										}
-									},
-									{ctor: '[]'}),
-								_1: {
-									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$img,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-3.jpg'),
-												_1: {ctor: '[]'}
-											}
-										},
-										{ctor: '[]'}),
-									_1: {ctor: '[]'}
-								}
-							}),
-						_1: {ctor: '[]'}
-					}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A3(
-					_eizzilenna$portfolio$Components$workGroup,
-					'Desk',
-					_eizzilenna$portfolio$Components$loremTitle,
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$div,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr3-ns'),
-								_1: {ctor: '[]'}
-							},
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$img,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-1.jpg'),
+											_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-2.jpg'),
 											_1: {ctor: '[]'}
 										}
 									},
@@ -10143,61 +10094,159 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 								_elm_lang$html$Html$div,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns'),
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-30-ns pl3-ns'),
 									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
 									_0: A2(
-										_elm_lang$html$Html$div,
+										_elm_lang$html$Html$img,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pr2-ns'),
-											_1: {ctor: '[]'}
+											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-3.jpg'),
+												_1: {ctor: '[]'}
+											}
 										},
+										{ctor: '[]'}),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl3-ns'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$img,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-4.jpg'),
+													_1: {ctor: '[]'}
+												}
+											},
+											{ctor: '[]'}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A3(
+					_eizzilenna$portfolio$Components$workGroup,
+					'Bookshelf',
+					_eizzilenna$portfolio$Components$loremTitle,
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-1.jpg'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$img,
 										{
 											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$img,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-2.jpg'),
-														_1: {ctor: '[]'}
-													}
-												},
-												{ctor: '[]'}),
-											_1: {ctor: '[]'}
-										}),
+											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-2.jpg'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{ctor: '[]'}),
 									_1: {
 										ctor: '::',
 										_0: A2(
-											_elm_lang$html$Html$div,
+											_elm_lang$html$Html$img,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pl2-ns'),
-												_1: {ctor: '[]'}
+												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$src('/images/bookshelf/bookshelf-3.jpg'),
+													_1: {ctor: '[]'}
+												}
 											},
-											{
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$img,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-3.jpg'),
-															_1: {ctor: '[]'}
-														}
-													},
-													{ctor: '[]'}),
-												_1: {ctor: '[]'}
-											}),
+											{ctor: '[]'}),
 										_1: {ctor: '[]'}
 									}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A3(
+						_eizzilenna$portfolio$Components$workGroup,
+						'Desk',
+						_eizzilenna$portfolio$Components$loremTitle,
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr3-ns'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$img,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-1.jpg'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{ctor: '[]'}),
+									_1: {ctor: '[]'}
 								}),
 							_1: {
 								ctor: '::',
@@ -10214,7 +10263,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr2-ns'),
+												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pr2-ns'),
 												_1: {ctor: '[]'}
 											},
 											{
@@ -10226,7 +10275,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-4.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-2.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10239,7 +10288,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_elm_lang$html$Html$div,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl2-ns'),
+													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pl2-ns'),
 													_1: {ctor: '[]'}
 												},
 												{
@@ -10251,7 +10300,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-5.jpg'),
+																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-3.jpg'),
 																_1: {ctor: '[]'}
 															}
 														},
@@ -10261,48 +10310,85 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 											_1: {ctor: '[]'}
 										}
 									}),
-								_1: {ctor: '[]'}
-							}
-						}
-					}),
-				_1: {
-					ctor: '::',
-					_0: A3(
-						_eizzilenna$portfolio$Components$workGroup,
-						'Dining Area',
-						_eizzilenna$portfolio$Components$loremTitle,
-						{
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$div,
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
-									_1: {ctor: '[]'}
-								},
-								{
+								_1: {
 									ctor: '::',
 									_0: A2(
-										_elm_lang$html$Html$img,
+										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$div,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns pr2-ns'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$img,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-4.jpg'),
+																_1: {ctor: '[]'}
+															}
+														},
+														{ctor: '[]'}),
+													_1: {ctor: '[]'}
+												}),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl2-ns'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$img,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('fl pv2 db w-100'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$src('/images/desk/desk-5.jpg'),
+																	_1: {ctor: '[]'}
+																}
+															},
+															{ctor: '[]'}),
+														_1: {ctor: '[]'}
+													}),
 												_1: {ctor: '[]'}
 											}
-										},
-										{ctor: '[]'}),
+										}),
 									_1: {ctor: '[]'}
-								}),
-							_1: {
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A3(
+							_eizzilenna$portfolio$Components$workGroup,
+							'Dining Area',
+							_eizzilenna$portfolio$Components$loremTitle,
+							{
 								ctor: '::',
 								_0: A2(
 									_elm_lang$html$Html$div,
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr3-ns'),
 										_1: {ctor: '[]'}
 									},
 									{
@@ -10314,12 +10400,23 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
+													_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/800x1200'),
 													_1: {ctor: '[]'}
 												}
 											},
 											{ctor: '[]'}),
-										_1: {
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns'),
+											_1: {ctor: '[]'}
+										},
+										{
 											ctor: '::',
 											_0: A2(
 												_elm_lang$html$Html$img,
@@ -10333,78 +10430,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 													}
 												},
 												{ctor: '[]'}),
-											_1: {ctor: '[]'}
-										}
-									}),
-								_1: {ctor: '[]'}
-							}
-						}),
-					_1: {
-						ctor: '::',
-						_0: A3(
-							_eizzilenna$portfolio$Components$workGroup,
-							'Sitting Room',
-							_eizzilenna$portfolio$Components$loremTitle,
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$div,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-40-ns'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$img,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-1.jpg'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{ctor: '[]'}),
-										_1: {ctor: '[]'}
-									}),
-								_1: {
-									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$div,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-30-ns pl3-ns'),
-											_1: {ctor: '[]'}
-										},
-										{
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$img,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-2.jpg'),
-														_1: {ctor: '[]'}
-													}
-												},
-												{ctor: '[]'}),
-											_1: {ctor: '[]'}
-										}),
-									_1: {
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$div,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-30-ns pl3-ns'),
-												_1: {ctor: '[]'}
-											},
-											{
+											_1: {
 												ctor: '::',
 												_0: A2(
 													_elm_lang$html$Html$img,
@@ -10413,41 +10439,15 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 														_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-3.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('https://placehold.it/1200x800'),
 															_1: {ctor: '[]'}
 														}
 													},
 													{ctor: '[]'}),
 												_1: {ctor: '[]'}
-											}),
-										_1: {
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$div,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-60-ns pl3-ns'),
-													_1: {ctor: '[]'}
-												},
-												{
-													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$img,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('pv2 db w-100'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$src('/images/sitting-room/sitting-room-4.jpg'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{ctor: '[]'}),
-													_1: {ctor: '[]'}
-												}),
-											_1: {ctor: '[]'}
-										}
-									}
+											}
+										}),
+									_1: {ctor: '[]'}
 								}
 							}),
 						_1: {
