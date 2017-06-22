@@ -47,7 +47,7 @@ activeClass path href =
 
 nav : (String -> msg) -> String -> Html msg
 nav navigate path =
-  H.nav [ A.class "db dt-l w-100 border-box pb5 pt4" ]
+  H.nav [ A.class "db dt-l w-100 border-box pb4 pt4" ]
     [ brand navigate
     , H.div [ A.class "db dtc-l v-mid w-100 w-75-l tc tr-l" ]
         [ navLink navigate "About" "/" (activeClass path "/")
@@ -113,7 +113,7 @@ paragraph content =
 
 pageHeader : String -> String -> List (Html msg) -> Html msg
 pageHeader id title content =
-  H.article [ A.class "cf pb5 pt3" ]
+  H.article [ A.class "cf pb4 pt3" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h1 [ A.id id, A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         ]
@@ -122,7 +122,7 @@ pageHeader id title content =
 
 workHeader : String -> String -> String -> Html msg
 workHeader title subTitle content =
-  H.article [ A.class "cf pv5" ]
+  H.article [ A.class "cf pv4" ]
     [ H.header [ A.class "fn fl-ns w-50-ns pr4-ns" ]
         [ H.h2 [ A.class "f2 lh-title fw6 mb1 mt0 pt3 bt bw1" ] [ H.text title ]
         , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text subTitle ]
@@ -144,7 +144,7 @@ groupImage src =
 
 work : String -> String -> String -> String -> Html msg
 work title media dimensions src =
-  H.article [ A.class "cf pv5" ]
+  H.article [ A.class "cf pv4" ]
     [ H.div [ A.class "" ] [ image title src ]
     , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ] [ H.text title ]
@@ -155,7 +155,7 @@ work title media dimensions src =
 
 workGroup : String -> String -> String -> List (Html msg) -> Html msg
 workGroup title media dimensions children =
-  H.article [ A.class "cf pv5" ]
+  H.article [ A.class "cf pv4" ]
     [ H.div [ A.class "cf" ] children
     , H.header [ A.class "fn fl-ns pr4-ns" ]
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ] [ H.text title ]
@@ -166,7 +166,7 @@ workGroup title media dimensions children =
 
 interior : String -> Html msg -> List (Html msg) -> Html msg
 interior title description children =
-  H.article [ A.class "cf pv5" ]
+  H.article [ A.class "cf pv4" ]
     [ H.div [ A.class "cf" ] children
     , H.header []
         [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ]
