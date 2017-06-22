@@ -279,6 +279,22 @@ interiors =
   H.div []
     [ C.pageHeader "interiors" "Interiors" C.loremTitle (Just C.loremParagraph)
     , C.workGroup
+      "Sitting Room"
+      C.loremTitle
+      [ H.div [ A.class "fl w-100 w-40-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-1.jpg" ] []
+          ]
+      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-2.jpg" ] []
+          ]
+      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-3.jpg" ] []
+          ]
+      , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-4.jpg" ] []
+          ]
+      ]
+    , C.workGroup
       "Bookshelf"
       C.loremTitle
       [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
@@ -321,22 +337,6 @@ interiors =
       , H.div [ A.class "fl w-100 w-50-ns" ]
           [ H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
           , H.img [ A.class "pv2 db w-100", A.src "https://placehold.it/1200x800" ] []
-          ]
-      ]
-    , C.workGroup
-      "Sitting Room"
-      C.loremTitle
-      [ H.div [ A.class "fl w-100 w-40-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-1.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-2.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-3.jpg" ] []
-          ]
-      , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-          [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-4.jpg" ] []
           ]
       ]
     , C.workGroup
