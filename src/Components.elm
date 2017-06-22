@@ -149,8 +149,19 @@ work title media dimensions src =
         ]
     ]
 
-workGroup : String -> Html msg -> List (Html msg) -> Html msg
-workGroup title description children =
+workGroup : String -> String -> String -> List (Html msg) -> Html msg
+workGroup title media dimensions children =
+  H.article [ A.class "cf pv5" ]
+    [ H.div [ A.class "cf" ] children
+    , H.header [ A.class "fn fl-ns pr4-ns" ]
+        [ H.h2 [ A.class "f3 lh-title fw6 mb1 mt0 pt3" ] [ H.text title ]
+        , H.h3 [ A.class "f5 fw4 mid-gray mb1 mt0 lh-title" ] [ H.text media ]
+        , H.h4 [ A.class "f6 mt0 fw4 tracked gray" ] [ H.text dimensions ]
+        ]
+    ]
+
+interior : String -> Html msg -> List (Html msg) -> Html msg
+interior title description children =
   H.article [ A.class "cf pv5" ]
     [ H.div [ A.class "cf" ] children
     , H.header []

@@ -298,7 +298,7 @@ living space. A mixture of mid-century furniture and simple contemporary
 pieces complement each other, creating a retro yet modern feel.
 """
         ]
-    , C.workGroup
+    , C.interior
         "Hallway"
         (C.paragraph """
 A Componibili storage unit by Kartell and a small teak drawer unit provide
@@ -313,7 +313,7 @@ company Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.
             [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
             ]
         ]
-    , C.workGroup
+    , C.interior
         "Dining Area"
         (C.paragraph """
 A Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an
@@ -329,7 +329,7 @@ by greenery.
             , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
             ]
         ]
-    , C.workGroup
+    , C.interior
         "Sitting Area"
         (C.paragraph """
 The colours in the painting by Finnish artist Henry Wright are mirrored in the
@@ -350,7 +350,7 @@ in a market in Greenwich and vintage glass pieces bought in Sweden and Finland.
             [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-4.jpg" ] []
             ]
         ]
-    , C.workGroup
+    , C.interior
         "Workspace"
         (C.paragraph """
 The workspace houses a simple white desk that sits neatly within a recess at
@@ -378,7 +378,7 @@ light grey back wall.
                 ]
             ]
         ]
-    , C.workGroup
+    , C.interior
         "Bookshelf"
         (C.paragraph """
 The large bookshelf acts as both a storage/display area for a collection of
