@@ -66,26 +66,19 @@ drawings =
         "Pencil on paper"
         "570 x 760 mm"
         "/images/drawings/self-portrait.jpg"
-    , C.work
-        "Self Portrait Rules"
+    , C.workGroup
+        "Self Portrait Rules + Measurements"
         "Typewriter on paper"
-        "297 x 210 mm"
-        "/images/drawings/self-portrait-rules.jpg"
-    , C.work
-        "Self Portrait Measurements 1"
-        "Typewriter on paper"
-        "297 x 210 mm"
-        "/images/drawings/self-portrait-measurements-1.jpg"
-    , C.work
-        "Self Portrait Measurements 2"
-        "Typewriter on paper"
-        "297 x 210 mm"
-        "/images/drawings/self-portrait-measurements-2.jpg"
-    , C.work
-        "Self Portrait Measurements 3"
-        "Typewriter on paper"
-        "297 x 210 mm"
-        "/images/drawings/self-portrait-measurements-3.jpg"
+        "Each 297 x 210 mm"
+        [ H.div [ A.class "fl w-100 w-25-ns pr2-ns" ]
+            [ C.groupImage "/images/drawings/self-portrait-rules.jpg" ]
+        , H.div [ A.class "fl w-100 w-25-ns pl1-ns pr1-ns" ]
+            [ C.groupImage "/images/drawings/self-portrait-measurements-1.jpg" ]
+        , H.div [ A.class "fl w-100 w-25-ns pl1-ns pr1-ns" ]
+            [ C.groupImage "/images/drawings/self-portrait-measurements-2.jpg" ]
+        , H.div [ A.class "fl w-100 w-25-ns pl2-ns" ]
+            [ C.groupImage "/images/drawings/self-portrait-measurements-3.jpg" ]
+        ]
     , C.work
         "Black I"
         "Pencil on paper"
