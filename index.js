@@ -10179,30 +10179,22 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			ctor: '::',
 			_0: A4(
 				_eizzilenna$portfolio$Components$workGroup,
-				'Postcards',
-				'Mixed media on card',
-				'Each 105 x 148 mm',
+				'Yellow Can + Guilt Tripping, Nice World',
+				'Mixed media on paper',
+				'Each 297 x 210mm',
 				{
 					ctor: '::',
 					_0: A2(
 						_elm_lang$html$Html$div,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pr2-ns'),
+							_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
 							_1: {ctor: '[]'}
 						},
 						{
 							ctor: '::',
-							_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-1.jpg'),
-							_1: {
-								ctor: '::',
-								_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-2.jpg'),
-								_1: {
-									ctor: '::',
-									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-3.jpg'),
-									_1: {ctor: '[]'}
-								}
-							}
+							_0: _eizzilenna$portfolio$Components$groupImage('/images/magasin-collage/yellow-can.jpg'),
+							_1: {ctor: '[]'}
 						}),
 					_1: {
 						ctor: '::',
@@ -10210,21 +10202,37 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 							_elm_lang$html$Html$div,
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl1-ns pr1-ns'),
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
 								_1: {ctor: '[]'}
 							},
 							{
 								ctor: '::',
-								_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-4.jpg'),
-								_1: {
-									ctor: '::',
-									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-5.jpg'),
-									_1: {
-										ctor: '::',
-										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-6.jpg'),
-										_1: {ctor: '[]'}
-									}
-								}
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/magasin-collage/guilt-tripping-nice-world.jpg'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A4(
+					_eizzilenna$portfolio$Components$workGroup,
+					'Design + Milton',
+					'Mixed media on paper',
+					'Each 297 x 210mm',
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _eizzilenna$portfolio$Components$groupImage('/images/magasin-collage/design.jpg'),
+								_1: {ctor: '[]'}
 							}),
 						_1: {
 							ctor: '::',
@@ -10232,74 +10240,128 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 								_elm_lang$html$Html$div,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl2-ns'),
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
 									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
-									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-7.jpg'),
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/magasin-collage/milton.jpg'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A4(
+						_eizzilenna$portfolio$Components$workGroup,
+						'Postcards',
+						'Mixed media on card',
+						'Each 105 x 148 mm',
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pr2-ns'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-1.jpg'),
 									_1: {
 										ctor: '::',
-										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-8.jpg'),
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-2.jpg'),
 										_1: {
 											ctor: '::',
-											_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-9.jpg'),
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-3.jpg'),
 											_1: {ctor: '[]'}
 										}
 									}
 								}),
-							_1: {ctor: '[]'}
-						}
-					}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
-				_1: {
-					ctor: '::',
-					_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
-					_1: {
-						ctor: '::',
-						_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
-						_1: {
-							ctor: '::',
-							_0: A4(_eizzilenna$portfolio$Components$work, 'Design', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/design.jpg'),
 							_1: {
 								ctor: '::',
-								_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Can', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/yellow-can.jpg'),
-								_1: {
-									ctor: '::',
-									_0: A4(_eizzilenna$portfolio$Components$work, 'Guilt Tripping, Nice World', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/guilt-tripping-nice-world.jpg'),
-									_1: {
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
 										ctor: '::',
-										_0: A4(_eizzilenna$portfolio$Components$work, 'Milton', 'Mixed media on paper', '297 x 210mm', '/images/magasin-collage/milton.jpg'),
+										_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl1-ns pr1-ns'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-4.jpg'),
 										_1: {
 											ctor: '::',
-											_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-5.jpg'),
 											_1: {
 												ctor: '::',
-												_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-6.jpg'),
+												_1: {ctor: '[]'}
+											}
+										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-third-ns pl2-ns'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-7.jpg'),
+											_1: {
+												ctor: '::',
+												_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-8.jpg'),
 												_1: {
 													ctor: '::',
-													_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
+													_0: _eizzilenna$portfolio$Components$groupImage('/images/postcards/untitled-9.jpg'),
+													_1: {ctor: '[]'}
+												}
+											}
+										}),
+									_1: {ctor: '[]'}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A4(_eizzilenna$portfolio$Components$work, 'Grey Wagtail', 'Mixed media on paper', '297 x 210 mm', '/images/bird-collages/grey-wagtail.jpg'),
+						_1: {
+							ctor: '::',
+							_0: A4(_eizzilenna$portfolio$Components$work, 'Yellow Bird', 'Mixed media on paper', '170 x 170 mm', '/images/bird-collages/yellow-bird.jpg'),
+							_1: {
+								ctor: '::',
+								_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Bird', 'Mixed media on paper', '170 x 120 mm', '/images/bird-collages/blue-bird.jpg'),
+								_1: {
+									ctor: '::',
+									_0: A4(_eizzilenna$portfolio$Components$work, 'M', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/m.jpg'),
+									_1: {
+										ctor: '::',
+										_0: A4(_eizzilenna$portfolio$Components$work, 'Exhibits in the Sculpture Gallery', 'Dots on paper', '297 x 210mm', '/images/dot-series/exhibits-in-the-scuplture-gallery.jpg'),
+										_1: {
+											ctor: '::',
+											_0: A4(_eizzilenna$portfolio$Components$work, 'du', 'Dots on paper', '297 x 210mm', '/images/dot-series/du.jpg'),
+											_1: {
+												ctor: '::',
+												_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
+												_1: {
+													ctor: '::',
+													_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
 													_1: {
 														ctor: '::',
-														_0: A4(_eizzilenna$portfolio$Components$work, 'Indice Alfabetico Delle Illustrazioni', 'Mixed media on paper', '297 x 210mm', '/images/dot-series/indice-alfabetico-delle-illustrazioni.jpg'),
+														_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
 														_1: {
 															ctor: '::',
-															_0: A4(_eizzilenna$portfolio$Components$work, 'I Am Participating (Draft)', 'Mixed media on paper', '165 x 115 mm', '/images/dot-series/i-am-participating.jpg'),
+															_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
 															_1: {
 																ctor: '::',
-																_0: A4(_eizzilenna$portfolio$Components$work, 'Zema Plast', 'Mixed media on card', '297 x 210mm', '/images/dot-series/zema-plast.jpg'),
-																_1: {
-																	ctor: '::',
-																	_0: A4(_eizzilenna$portfolio$Components$work, 'Untitled 73', 'Mixed media on paper', '196 x 145 mm', '/images/dot-series/untitled-73.jpg'),
-																	_1: {
-																		ctor: '::',
-																		_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
-																		_1: {ctor: '[]'}
-																	}
-																}
+																_0: _eizzilenna$portfolio$Components$scrollToTop('collages'),
+																_1: {ctor: '[]'}
 															}
 														}
 													}
