@@ -299,24 +299,32 @@ pieces complement each other, creating a retro yet modern feel.
 """
         ]
     , C.workGroup
-        "Sitting Room"
-        C.loremTitle
+        "Sitting Area"
+        (C.paragraph """
+The colours in the painting by Finnish artist Henry Wright are mirrored in the
+cushions and Marimekko fabric used on the sofa.  A vintage bookshelf houses an
+eclectic array of objects, including a pair of Staffordshire ‘Wally dugs’ found
+in a market in Greenwich and vintage glass pieces bought in Sweden and Finland.
+""")
         [ H.div [ A.class "fl w-100 w-40-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-1.jpg" ] []
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-1.jpg" ] []
             ]
         , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-2.jpg" ] []
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-2.jpg" ] []
             ]
         , H.div [ A.class "fl w-100 w-30-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-3.jpg" ] []
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-3.jpg" ] []
             ]
         , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-room/sitting-room-4.jpg" ] []
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/sitting-area/sitting-area-4.jpg" ] []
             ]
         ]
     , C.workGroup
         "Bookshelf"
-        C.loremTitle
+        (C.paragraph """
+The large bookshelf acts as both a storage/display area for a collection of
+books and other objects, as well as a room divider between the dining area and the workspace.
+""")
         [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
             [ H.img [ A.class "pv2 db w-100", A.src "/images/bookshelf/bookshelf-1.jpg" ] []
             ]
@@ -326,17 +334,22 @@ pieces complement each other, creating a retro yet modern feel.
             ]
         ]
     , C.workGroup
-        "Desk"
-        C.loremTitle
+        "Workspace"
+        (C.paragraph """
+The workspace houses a simple white desk that sits neatly within a recess at
+the end of the living space. Brightly coloured objects, including a vintage
+typewriter and several pot plants provide vibrant pockets of colour against the
+light grey back wall.
+""")
         [ H.div [ A.class "fl w-100 w-40-ns pr3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/desk/desk-1.jpg" ] []
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/workspace/workspace-1.jpg" ] []
             ]
         , H.div [ A.class "fl w-100 w-60-ns" ]
             [ H.div [ A.class "fl w-100 w-60-ns pr2-ns" ]
-                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-2.jpg" ] []
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/workspace/workspace-2.jpg" ] []
                 ]
             , H.div [ A.class "fl w-100 w-40-ns pl2-ns" ]
-                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/desk/desk-3.jpg" ] []
+                [ H.img [ A.class "fl pv2 db w-100", A.src "/images/workspace/workspace-3.jpg" ] []
                 ]
             ]
         , H.div [ A.class "fl w-100 w-60-ns" ]
@@ -349,8 +362,27 @@ pieces complement each other, creating a retro yet modern feel.
             ]
         ]
     , C.workGroup
+        "Hallway"
+        (C.paragraph """
+The Componibili storage unit by Kartell and a small teak drawer unit provide
+space for another set of the owners collections, including glassware by Danish
+design company Normann Copenhagen and Alvar Aalto for Iittala.
+""")
+        [ H.div [ A.class "fl w-100 w-40-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
+            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
+            ]
+        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
+            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
+            ]
+        ]
+    , C.workGroup
         "Dining Area"
-        C.loremTitle
+        (C.paragraph """
+A Muuto pendant light, by Swedish designer Mattias Ståhlbom, hangs above an
+Ercol drop leaf dining table, which is bathed in natural light and surrounded
+by greenery.
+""")
         [ H.div [ A.class "fl w-100 w-50-ns" ]
             [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-1.jpg" ] []
             , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-2.jpg" ] []
@@ -358,17 +390,6 @@ pieces complement each other, creating a retro yet modern feel.
         , H.div [ A.class "fl w-100 w-50-ns pl3-ns" ]
             [ H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-3.jpg" ] []
             , H.img [ A.class "pv2 db w-100", A.src "/images/dining-table/dining-table-4.jpg" ] []
-            ]
-        ]
-    , C.workGroup
-        "Hallway"
-        C.loremTitle
-        [ H.div [ A.class "fl w-100 w-40-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-1.jpg" ] []
-            , H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-2.jpg" ] []
-            ]
-        , H.div [ A.class "fl w-100 w-60-ns pl3-ns" ]
-            [ H.img [ A.class "pv2 db w-100", A.src "/images/hallway/hallway-3.jpg" ] []
             ]
         ]
     ]
