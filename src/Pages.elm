@@ -159,12 +159,12 @@ collages : Html msg
 collages =
   H.div []
     [ C.pageHeader [ C.h1 "collages" "Collages" ]
-        [ C.leadParagraph """
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
-"""
+        [ C.leadParagraph "Collage: noun."
+        , H.ol [ A.class "f5 lh-title measure" ]
+            [ H.li [ A.class "pb2" ] [ H.text "a piece of art made by sticking various different materials such as photographs and pieces of paper or fabric on to a backing." ]
+            , H.li [ A.class "pb2" ] [ H.text "the art of making collages." ]
+            , H.li [ A.class "pb2" ] [ H.text "a collection or combination of various things." ]
+            ]
         ]
     , C.workGroup
         "Yellow Can + Guilt Tripping, Nice World"
