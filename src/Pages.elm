@@ -88,21 +88,15 @@ drawings =
         , H.div [ A.class "fl w-100 w-40-ns" ]
             [ C.groupImage "/images/drawings/black-ii.jpg" ]
         ]
-    , C.work
-        "I Went Too"
+    , C.workGroup
+        "I Went Too + After I Went Too"
         "Pencil on paper"
-        "570 x 760 mm"
-        "/images/drawings/i-went-too.jpg"
-    , C.work
-        "After I Went Too"
-        "Pencil on paper"
-        "570 x 760 mm"
-        "/images/drawings/after-i-went-too.jpg"
-    , C.work
-        "Pencil on Paper"
-        "Pencil on paper"
-        "760 x 570 mm"
-        "/images/drawings/pencil-on-paper.jpg"
+        "Each 570 x 760 mm"
+        [ H.div [ A.class "w-100 w-70-ns" ]
+            [ C.groupImage "/images/drawings/i-went-too.jpg"
+            , C.groupImage "/images/drawings/after-i-went-too.jpg"
+            ]
+        ]
     , C.work
         "Eduardo Marquina"
         "Pencil on paper"
