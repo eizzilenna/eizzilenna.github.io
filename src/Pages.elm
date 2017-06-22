@@ -30,14 +30,14 @@ about : Html msg
 about =
   H.div []
     [ C.image "Elizabeth Anne Wright" "https://placehold.it/960x240"
-    , C.pageHeader "about" "About" C.loremTitle
+    , C.pageHeader "about" "About"
         [ C.leadParagraph C.loremParagraph ]
     ]
 
 drawings : Html msg
 drawings =
   H.div []
-    [ C.pageHeader "drawings" "Drawings" C.loremTitle
+    [ C.pageHeader "drawings" "Drawings"
         [ C.leadParagraph C.loremParagraph ]
     , C.workHeader "Scribbles" C.loremTitle C.loremParagraph
     , C.work
@@ -122,7 +122,7 @@ drawings =
 collages : Html msg
 collages =
   H.div []
-    [ C.pageHeader "collages" "Collages" C.loremTitle
+    [ C.pageHeader "collages" "Collages"
         [ C.leadParagraph C.loremParagraph ]
     , C.workHeader "Postcards" C.loremTitle C.loremParagraph
     , C.work
@@ -280,7 +280,7 @@ collages =
 interiors : Html msg
 interiors =
   H.div []
-    [ C.pageHeader "interiors" "Interiors" C.loremTitle
+    [ C.pageHeader "interiors" "Interiors"
         [ C.leadParagraph """
 Carefully arranged to maximise the space and light, this South East London
 apartment, with its open-plan layout and large floor to ceiling windows, is
@@ -397,4 +397,4 @@ books and other objects, as well as a room divider between the dining area and t
 
 notFound : Html msg
 notFound =
-  C.pageHeader "404" "404" "Nothing to see here." []
+  C.pageHeader "404" "404" []
