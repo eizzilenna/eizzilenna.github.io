@@ -79,16 +79,15 @@ drawings =
         , H.div [ A.class "fl w-100 w-25-ns pl2-ns" ]
             [ C.groupImage "/images/drawings/self-portrait-measurements-3.jpg" ]
         ]
-    , C.work
-        "Black I"
-        "Pencil on paper"
-        "760 x 570 mm"
-        "/images/drawings/black-i.jpg"
-    , C.work
-        "Black II"
-        "Etching"
-        "740 x 525 mm"
-        "/images/drawings/black-ii.jpg"
+    , C.workGroup
+        "Black I + II"
+        "Pencil on paper + Etching"
+        "760 x 570 mm + 740 x 525 mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr3-ns" ]
+            [ C.groupImage "/images/drawings/black-i.jpg" ]
+        , H.div [ A.class "fl w-100 w-40-ns" ]
+            [ C.groupImage "/images/drawings/black-ii.jpg" ]
+        ]
     , C.work
         "I Went Too"
         "Pencil on paper"
