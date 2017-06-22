@@ -86,9 +86,9 @@ nav navigate path =
     [ brand navigate
     , H.div [ A.class "db dtc-l v-mid w-100 w-75-l tc tr-l" ]
         [ navLink navigate "About" "/" (activeClass path "/")
+        , navLink navigate "Interiors" "/interiors" (activeClass path "/interiors")
         , navLink navigate "Drawings" "/drawings" (activeClass path "/drawings")
-        , navLink navigate "Collages" "/collages" (activeClass path "/collages")
-        , navLinkLast navigate "Interiors" "/interiors" (activeClass path "/interiors")
+        , navLinkLast navigate "Collages" "/collages" (activeClass path "/collages")
         ]
     ]
 
