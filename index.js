@@ -8643,8 +8643,6 @@ var _eizzilenna$portfolio$Components$layout = function (children) {
 			_1: {ctor: '[]'}
 		});
 };
-var _eizzilenna$portfolio$Components$loremParagraph = '\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n';
-var _eizzilenna$portfolio$Components$loremTitle = 'Lorem ipsum dolor sit amet';
 var _eizzilenna$portfolio$Components$onClick = function (message) {
 	return A3(
 		_elm_lang$html$Html_Events$onWithOptions,
@@ -10172,7 +10170,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 			'Collages',
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
 				_1: {ctor: '[]'}
 			}),
 		_1: {
@@ -10508,7 +10506,7 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 			'Drawings',
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+				_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
 				_1: {ctor: '[]'}
 			}),
 		_1: {
@@ -10777,7 +10775,7 @@ var _eizzilenna$portfolio$Pages$about = A2(
 				'About',
 				{
 					ctor: '::',
-					_0: _eizzilenna$portfolio$Components$leadParagraph(_eizzilenna$portfolio$Components$loremParagraph),
+					_0: _eizzilenna$portfolio$Components$leadParagraph('\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod\ntempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,\nno sea takimata sanctus est Lorem ipsum dolor sit amet.\n'),
 					_1: {ctor: '[]'}
 				}),
 			_1: {ctor: '[]'}
