@@ -257,7 +257,7 @@ interiors =
         [ C.leadParagraph """
 Carefully arranged to maximise the space and light, this South East London
 apartment, with its open-plan layout and large floor to ceiling windows, is
-ideal for housing its owners collections of pottery, glass and art.
+ideal for housing the owner's collections of pottery, glass and art.
 """
         , C.paragraph """
 To utilise the space available, the layout has been intelligently configured
@@ -275,7 +275,7 @@ pieces complement each other, creating a retro yet modern feel.
         "Hallway"
         (C.paragraph """
 A Componibili storage unit by Kartell and a small teak drawer unit provide
-space for a set of the owners collections, including glassware by Danish design
+space for a set of the owner's collections, including glassware by Danish design
 company Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.
 """)
         [ H.div [ A.class "fl w-100 w-40-ns" ]
