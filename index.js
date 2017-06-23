@@ -9815,6 +9815,10 @@ var _elm_lang$navigation$Navigation$onEffects = F4(
 	});
 _elm_lang$core$Native_Platform.effectManagers['Navigation'] = {pkg: 'elm-lang/navigation', init: _elm_lang$navigation$Navigation$init, onEffects: _elm_lang$navigation$Navigation$onEffects, onSelfMsg: _elm_lang$navigation$Navigation$onSelfMsg, tag: 'fx', cmdMap: _elm_lang$navigation$Navigation$cmdMap, subMap: _elm_lang$navigation$Navigation$subMap};
 
+var _elm_lang$html$Html_Keyed$node = _elm_lang$virtual_dom$VirtualDom$keyedNode;
+var _elm_lang$html$Html_Keyed$ol = _elm_lang$html$Html_Keyed$node('ol');
+var _elm_lang$html$Html_Keyed$ul = _elm_lang$html$Html_Keyed$node('ul');
+
 var _eizzilenna$portfolio$Pages$notFound = A2(
 	_eizzilenna$portfolio$Components$pageHeader,
 	{
@@ -10938,10 +10942,22 @@ var _eizzilenna$portfolio$Pages$page = F2(
 				_0: A2(_eizzilenna$portfolio$Components$nav, navigate, path),
 				_1: {
 					ctor: '::',
-					_0: A2(
-						_elm_lang$core$Maybe$withDefault,
-						_eizzilenna$portfolio$Pages$notFound,
-						A2(_elm_lang$core$Dict$get, path, _eizzilenna$portfolio$Pages$pages)),
+					_0: A3(
+						_elm_lang$html$Html_Keyed$node,
+						'div',
+						{ctor: '[]'},
+						{
+							ctor: '::',
+							_0: {
+								ctor: '_Tuple2',
+								_0: path,
+								_1: A2(
+									_elm_lang$core$Maybe$withDefault,
+									_eizzilenna$portfolio$Pages$notFound,
+									A2(_elm_lang$core$Dict$get, path, _eizzilenna$portfolio$Pages$pages))
+							},
+							_1: {ctor: '[]'}
+						}),
 					_1: {ctor: '[]'}
 				}
 			});
