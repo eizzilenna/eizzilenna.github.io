@@ -7,13 +7,15 @@ import Components as C
 import Dict exposing (Dict)
 import Html as H exposing (Attribute, Html)
 import Html.Attributes as A
+import Html.Keyed as K
+
 
 
 page : (String -> msg) -> String -> Html msg
 page navigate path =
   C.layout
     [ C.nav navigate path
-    , Dict.get path pages |> Maybe.withDefault notFound
+    , K.node "div" [] [ (path, Dict.get path pages |> Maybe.withDefault notFound) ]
     ]
 
 pages : Dict String (Html msg)
