@@ -9841,7 +9841,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			},
 			{
 				ctor: '::',
-				_0: _eizzilenna$portfolio$Components$leadParagraph('\nCarefully arranged to maximise the space and light, this South East London\napartment, with its open-plan layout and large floor to ceiling windows, is\nideal for housing its owners collections of pottery, glass and art.\n'),
+				_0: _eizzilenna$portfolio$Components$leadParagraph('\nCarefully arranged to maximise the space and light, this South East London\napartment, with its open-plan layout and large floor to ceiling windows, is\nideal for housing the owner\'s collections of pottery, glass and art.\n'),
 				_1: {
 					ctor: '::',
 					_0: _eizzilenna$portfolio$Components$paragraph('\nTo utilise the space available, the layout has been intelligently configured\ninto separate ‘zones’ using grouped furniture that maintains a view from the\nfront door right through to the outside.\n'),
@@ -9857,7 +9857,7 @@ var _eizzilenna$portfolio$Pages$interiors = A2(
 			_0: A3(
 				_eizzilenna$portfolio$Components$interior,
 				'Hallway',
-				_eizzilenna$portfolio$Components$paragraph('\nA Componibili storage unit by Kartell and a small teak drawer unit provide\nspace for a set of the owners collections, including glassware by Danish design\ncompany Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.\n'),
+				_eizzilenna$portfolio$Components$paragraph('\nA Componibili storage unit by Kartell and a small teak drawer unit provide\nspace for a set of the owner\'s collections, including glassware by Danish design\ncompany Normann Copenhagen and Finnish designer Alvar Aalto for Iittala.\n'),
 				{
 					ctor: '::',
 					_0: A2(
