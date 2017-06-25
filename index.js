@@ -10808,8 +10808,55 @@ var _eizzilenna$portfolio$Pages$drawings = A2(
 															_0: A4(_eizzilenna$portfolio$Components$work, 'Blue Lines', 'Ink on paper', '100 x 100 mm', '/images/lines-and-other-shapes/blue-lines.jpg'),
 															_1: {
 																ctor: '::',
-																_0: _eizzilenna$portfolio$Components$scrollToTop,
-																_1: {ctor: '[]'}
+																_0: A4(
+																	_eizzilenna$portfolio$Components$workGroup,
+																	'Birds 1 - 4',
+																	'Pencil on paper',
+																	'Each 180 x 120 mm',
+																	{
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$div,
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pr2-ns'),
+																				_1: {ctor: '[]'}
+																			},
+																			{
+																				ctor: '::',
+																				_0: _eizzilenna$portfolio$Components$groupImage('/images/birds/bird-1.jpg'),
+																				_1: {
+																					ctor: '::',
+																					_0: _eizzilenna$portfolio$Components$groupImage('/images/birds/bird-2.jpg'),
+																					_1: {ctor: '[]'}
+																				}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$div,
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$class('fl w-100 w-50-ns pl2-ns'),
+																					_1: {ctor: '[]'}
+																				},
+																				{
+																					ctor: '::',
+																					_0: _eizzilenna$portfolio$Components$groupImage('/images/birds/bird-3.jpg'),
+																					_1: {
+																						ctor: '::',
+																						_0: _eizzilenna$portfolio$Components$groupImage('/images/birds/bird-4.jpg'),
+																						_1: {ctor: '[]'}
+																					}
+																				}),
+																			_1: {ctor: '[]'}
+																		}
+																	}),
+																_1: {
+																	ctor: '::',
+																	_0: _eizzilenna$portfolio$Components$scrollToTop,
+																	_1: {ctor: '[]'}
+																}
 															}
 														}
 													}
