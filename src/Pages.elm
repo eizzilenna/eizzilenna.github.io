@@ -154,6 +154,19 @@ abandon previous rules-based systems in favour of intuition.
         "Ink on paper"
         "100 x 100 mm"
         "/images/lines-and-other-shapes/blue-lines.jpg"
+    , C.workGroup
+        "Birds 1 - 4"
+        "Pencil on paper"
+        "Each 180 x 120 mm"
+        [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
+            [ C.groupImage "/images/birds/bird-1.jpg"
+            , C.groupImage "/images/birds/bird-2.jpg"
+            ]
+        , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
+            [ C.groupImage "/images/birds/bird-3.jpg"
+            , C.groupImage "/images/birds/bird-4.jpg"
+            ]
+        ]
     , C.scrollToTop
     ]
 
