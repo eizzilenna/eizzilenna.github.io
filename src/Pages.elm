@@ -184,7 +184,7 @@ collages =
     , C.workGroup
         "Yellow Can + Guilt Tripping, Nice World"
         "Mixed media on paper"
-        "Each 297 x 210mm"
+        "Each 297 x 210 mm"
         [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
             [ C.groupImage "/images/magasin-collage/yellow-can.jpg" ]
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
@@ -193,7 +193,7 @@ collages =
     , C.workGroup
         "Design + Milton"
         "Mixed media on paper"
-        "Each 297 x 210mm"
+        "Each 297 x 210 mm"
         [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
             [ C.groupImage "/images/magasin-collage/design.jpg" ]
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
@@ -202,7 +202,7 @@ collages =
     , C.workGroup
         "Zema Plast + M"
         "Mixed media on paper"
-        "Each 297 x 210mm"
+        "Each 297 x 210 mm"
         [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
             [ C.groupImage "/images/dot-series/zema-plast.jpg" ]
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
@@ -211,7 +211,7 @@ collages =
     , C.workGroup
         "Exhibits in the Sculpture Gallery + du"
         "Mixed media on paper"
-        "Each 297 x 210mm"
+        "Each 297 x 210 mm"
         [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
             [ C.groupImage "/images/dot-series/exhibits-in-the-scuplture-gallery.jpg" ]
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
@@ -220,7 +220,7 @@ collages =
     , C.workGroup
         "I Am Participating (Draft) + Indice Alfabetico Delle Illustrazioni"
         "Mixed media on paper"
-        "165 x 115 mm + 297 x 210mm"
+        "165 x 115 mm + 297 x 210 mm"
         [ H.div [ A.class "fl w-100 w-50-ns pr2-ns" ]
             [ C.groupImage "/images/dot-series/i-am-participating.jpg" ]
         , H.div [ A.class "fl w-100 w-50-ns pl2-ns" ]
