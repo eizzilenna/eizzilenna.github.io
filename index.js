@@ -10240,7 +10240,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 				_eizzilenna$portfolio$Components$workGroup,
 				'Yellow Can + Guilt Tripping, Nice World',
 				'Mixed media on paper',
-				'Each 297 x 210mm',
+				'Each 297 x 210 mm',
 				{
 					ctor: '::',
 					_0: A2(
@@ -10278,7 +10278,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 					_eizzilenna$portfolio$Components$workGroup,
 					'Design + Milton',
 					'Mixed media on paper',
-					'Each 297 x 210mm',
+					'Each 297 x 210 mm',
 					{
 						ctor: '::',
 						_0: A2(
@@ -10316,7 +10316,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 						_eizzilenna$portfolio$Components$workGroup,
 						'Zema Plast + M',
 						'Mixed media on paper',
-						'Each 297 x 210mm',
+						'Each 297 x 210 mm',
 						{
 							ctor: '::',
 							_0: A2(
@@ -10354,7 +10354,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 							_eizzilenna$portfolio$Components$workGroup,
 							'Exhibits in the Sculpture Gallery + du',
 							'Mixed media on paper',
-							'Each 297 x 210mm',
+							'Each 297 x 210 mm',
 							{
 								ctor: '::',
 								_0: A2(
@@ -10392,7 +10392,7 @@ var _eizzilenna$portfolio$Pages$collages = A2(
 								_eizzilenna$portfolio$Components$workGroup,
 								'I Am Participating (Draft) + Indice Alfabetico Delle Illustrazioni',
 								'Mixed media on paper',
-								'165 x 115 mm + 297 x 210mm',
+								'165 x 115 mm + 297 x 210 mm',
 								{
 									ctor: '::',
 									_0: A2(
