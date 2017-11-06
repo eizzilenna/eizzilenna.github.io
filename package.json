@@ -8,7 +8,7 @@
     "dev": "ecstatic ./static --port 9966 & chokidar 'src/*.elm' -c 'npm run build:client'",
     "build": "npm run build:css && npm run build:client && npm run build:html",
     "build:html": "elm-make ./src/Build.elm --output ./build/elm.js && node build",
-    "build:client": "elm-make ./src/Main.elm --output ./static/index.js && google-closure-compiler-js ./static/index.js --compilationLevel ADVANCED --externs globals.js > ./static/index.min.js",
+    "build:client": "elm-make ./src/Main.elm --output ./static/index.js && google-closure-compiler-js ./static/index.js > ./static/index.min.js",
     "build:css": "cat ./node_modules/tachyons/css/tachyons.min.css ./node_modules/css-max-height-scale/css/css-max-height-scale.min.css > ./static/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
